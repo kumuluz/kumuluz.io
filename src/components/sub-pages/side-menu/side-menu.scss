@@ -1,0 +1,76 @@
+@import '../../../layouts/variables';
+
+.side-menu {
+  .line {
+    height: 1px;
+    background: $grey-100;
+    margin-top: 1rem;
+  }
+
+  .input-group {
+    .input-group-text {
+      color: $grey-100;
+      border-color: $grey-100;
+      background: $white;
+    }
+    input {
+      color: $grey-100;
+      border-color: $grey-100;
+      border-left: none;
+    }
+  }
+
+  h5 {
+    color: $grey-500;
+    text-transform: none;
+    font-family: $open-sans;
+    font-weight: 700;
+  }
+
+  ul.sidebar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: sticky;
+    top: 0;
+
+    & ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+      li {
+        padding: .5rem 0;
+        cursor: pointer;
+        color: $grey-500;
+        font-size: .95rem;
+
+        span {
+          float: right;
+        }
+
+        &.active {
+          font-weight: 700;
+          color: $blue-400;
+        }
+      }
+    }
+
+    & > li {
+      border-bottom: 1px solid $grey-100;
+      padding: 1rem 0;
+      cursor: pointer;
+      font-weight: 200;
+      color: $grey-500;
+
+      span {
+        float: right;
+      }
+
+      &.active {
+        font-weight: 700;
+        color: $blue-400;
+      }
+    }
+  }
+}

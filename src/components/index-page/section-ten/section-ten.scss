@@ -1,0 +1,18 @@
+@import '../../../layouts/variables';
+
+.section-ten {
+  h3 {
+    color: $blue-700;
+    text-transform: none;
+    font-size: 2rem;
+  }
+  h5 {
+    color: $blue-300;
+    text-transform: none;
+    font-size: 1.313rem;
+  }
+
+  .light-wrapper {
+    background: transparentize($blue-100, .85);
+  }
+}

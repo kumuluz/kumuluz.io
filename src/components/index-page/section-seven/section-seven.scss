@@ -1,0 +1,12 @@
+@import '../../../layouts/variables';
+
+.section-seven {
+  background: $blue-700;
+  p {
+    color: $white;
+  }
+
+  .lighter-text {
+    opacity: .75;
+  }
+}

@@ -1,0 +1,131 @@
+@import '../../layouts/variables';
+
+.banner {
+  min-height: 520px;
+  background: url(../../assets/images/bg-shapes-14.svg), url(../../assets/images/bg-shapes-15.svg),
+    linear-gradient(to right, $blue-300 32.11%, $blue-400 114.19%);
+  background-position: -10% 200px, 95% 0px, 0 0;
+  background-size: 30%, 40%, 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light, soft-light;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    color: $white;
+    font-size: 3rem;
+    text-transform: none;
+
+    @media (min-width: 992px) {
+      font-size: 5.5rem;
+    }
+  }
+
+  h4 {
+    color: $white;
+    font-size: 1.65rem;
+    padding-left: 5px;
+    margin-bottom: 2rem;
+  }
+  h5 {
+    padding-left: 5px;
+  }
+
+  &.simplified {
+    min-height: 0;
+    background-position: -100% 300px, 100% 50px, 0 0;
+
+    h1 {
+      font-size: 2.875rem;
+      color: $white;
+      text-transform: none;
+      font-weight: 400;
+      letter-spacing: normal !important;
+    }
+    p {
+      color: $white;
+      font-weight: 500;
+    }
+  }
+
+  .text-block {
+    h5 {
+      color: lighten($blue-100, 10%);
+    }
+    h2 {
+      font-family: $fjalla-one;
+      color: $white;
+      margin-bottom: 3rem;
+      text-align: center;
+      margin-top: 1rem;
+
+      @media (min-width: 992px) {
+        margin-bottom: 3rem;
+        margin-top: 0;
+        font-size: 2.25rem;
+        text-align: left;
+      }
+      @media (min-width: 1200px) {
+        font-size: 2.875rem;
+      }
+    }
+
+    .buttons {
+      justify-content: center;
+      flex-direction: column;
+
+      @media (min-width: 768px) {
+        flex-direction: row;
+      }
+
+      @media (min-width: 992px) {
+        justify-content: flex-start;
+      }
+
+      .input-group {
+        display: inline-flex;
+        width: auto;
+      }
+    }
+  }
+
+  .icon {
+    max-width: 65px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.white-box {
+  background: $white;
+  margin-top: -3rem;
+  box-shadow: $box-shadow;
+
+  .flex-width {
+    flex: 1 1 auto !important;
+  }
+  input {
+    width: 100% !important;
+  }
+
+  .links {
+    background: $blue-700;
+    color: $white;
+    text-transform: uppercase;
+    line-height: normal;
+    font-weight: 1rem;
+
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+
+  p {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}

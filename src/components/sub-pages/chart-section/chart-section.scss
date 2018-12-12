@@ -1,0 +1,16 @@
+@import '../../../layouts/variables';
+
+.chart-section {
+  h5 {
+    color: $blue-300;
+  }
+  .title {
+    margin-left: 1.5rem;
+    color: $black;
+    margin-right: 1rem;
+  }
+  .percentage {
+    color: $blue-700;
+    font-weight: 700;
+  }
+}

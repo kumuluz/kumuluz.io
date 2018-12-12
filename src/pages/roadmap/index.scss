@@ -1,0 +1,17 @@
+@import '../../layouts/variables.scss';
+
+.roadmap-page {
+  a.past-toggle {
+    text-decoration: underline;
+    cursor: pointer;
+    color: $blue-300;
+
+    :hover {
+      text-decoration: none;
+    }
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+}

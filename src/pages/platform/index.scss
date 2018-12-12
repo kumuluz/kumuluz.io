@@ -1,0 +1,76 @@
+@import '../../layouts/variables.scss';
+
+.platform-page {
+  h3 {
+    color: $blue-700;
+    margin-bottom: 1.5rem;
+    font-size: 2.375rem;
+  }
+
+  h4 {
+    color: $blue-300;
+    text-transform: none;
+    margin-bottom: 1.5rem;
+  }
+
+  h6 {
+    font-family: $open-sans;
+    font-weight: 700;
+    color: $grey-500;
+  }
+
+  hr {
+    border-width: 1px;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+  }
+
+  .highlight-section {
+    background: transparentize($blue-100, 0.85);
+    padding: 2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    color: $grey-500;
+    display: flex;
+    align-items: center;
+
+    &:before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-bottom: 50px solid $blue-300;
+      margin-right: 2rem;
+    }
+  }
+
+  .highlight-section,
+  .block {
+    background: transparentize($blue-100, 0.85);
+    padding: 2rem;
+    margin-bottom: 4rem;
+    color: $grey-500;
+  }
+
+  .no-transform {
+    text-transform: none;
+  }
+
+
+  ul {
+    padding-left: 20px;
+  }
+
+  .bg-light-grey{
+    background: $grey-000;
+  }
+
+  .img-55{
+    max-width: 55px;
+  }
+
+  .img-128{
+    max-height: 128px;
+  }
+}

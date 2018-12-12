@@ -1,0 +1,24 @@
+@import '../../../layouts/variables';
+
+.section-four {
+  .block {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .icon {
+      max-height: 125px;
+      max-width: 125px;
+      width: 125px;
+      height: 125px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+    h4 {
+      color: $grey-500;
+    }
+  }
+}

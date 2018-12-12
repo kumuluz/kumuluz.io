@@ -1,0 +1,34 @@
+@import '../../../layouts/variables';
+
+.section-eight {
+  h5 {
+    color: $blue-300;
+    margin-bottom: 1rem;
+    font-size: 1.313rem;
+  }
+  h3 {
+    color: $blue-700;
+    margin-bottom: 2rem;
+    text-transform: none;
+    font-size: 2.375rem;
+  }
+
+  h6{
+    color: $grey-300;
+  }
+  
+  .img-left {
+    box-shadow: 0.5rem 0.5rem 0 #24368a;
+    margin-left: -0.5rem;
+  }
+
+  .microprofile {
+    h6 {
+      color: $blue-700;
+    }
+
+    img {
+      width: 300px;
+    }
+  }
+}

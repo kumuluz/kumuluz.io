@@ -1,0 +1,40 @@
+<svg width="88" height="87" viewBox="0 0 88 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5850 -117)">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="matrix(0.9859 -0.1676 0.1676 0.9859 5855.86 196.257)" fill="#24368A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="matrix(0.7071 -0.7071 0.7071 0.7071 5873.89 193.709)" fill="#1B9DFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(5857.89 117)" fill="#1B9DFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="matrix(0.7071 -0.7071 0.7071 0.7071 5885.77 151.724)" fill="#98CDFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="matrix(0.1676 -0.9859 0.9859 0.1676 5854.3 197.784)" fill="#24368A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path5_fill" transform="matrix(0.7071 -0.7071 0.7071 0.7071 5848 198.122)" fill="#1B9DFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path6_fill" transform="matrix(0.7071 -0.7071 0.7071 0.7071 5852.39 172.228)" fill="#1B9DFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 26.5 0L 0 0L 0 3.8L 26.5 3.8L 26.5 0Z"/>
+<path id="path1_fill" d="M 5.8 11.6C 9.00325 11.6 11.6 9.00325 11.6 5.8C 11.6 2.59675 9.00325 0 5.8 0C 2.59675 0 0 2.59675 0 5.8C 0 9.00325 2.59675 11.6 5.8 11.6Z"/>
+<path id="path2_fill" d="M 0 29.4L 79.4 0L 50 79.5L 0 29.4Z"/>
+<path id="path3_fill" d="M 11.9 23.8C 18.4722 23.8 23.8 18.4722 23.8 11.9C 23.8 5.32781 18.4722 0 11.9 0C 5.32781 0 0 5.32781 0 11.9C 0 18.4722 5.32781 23.8 11.9 23.8Z"/>
+<path id="path4_fill" d="M 26.5 0L 0 0L 0 3.8L 26.5 3.8L 26.5 0Z"/>
+<path id="path5_fill" d="M 5.8 11.6C 9.00325 11.6 11.6 9.00325 11.6 5.8C 11.6 2.59675 9.00325 3.05176e-06 5.8 3.05176e-06C 2.59675 3.05176e-06 0 2.59675 0 5.8C 0 9.00325 2.59675 11.6 5.8 11.6Z"/>
+<path id="path6_fill" d="M 5.8 11.6C 9.00325 11.6 11.6 9.00325 11.6 5.8C 11.6 2.59675 9.00325 0 5.8 0C 2.59675 0 0 2.59675 0 5.8C 0 9.00325 2.59675 11.6 5.8 11.6Z"/>
+</defs>
+</svg>

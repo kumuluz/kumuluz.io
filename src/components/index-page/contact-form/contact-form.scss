@@ -1,0 +1,44 @@
+@import '../../../layouts/variables';
+
+.contact-form {
+  h3 {
+    color: $blue-300;
+  }
+
+  form {
+    label {
+      font-weight: 700;
+      font-size: 1rem;
+      color: $grey-500;
+    }
+  }
+
+  .more-info {
+    padding: 2rem;
+    background: $blue-700;
+
+    p {
+      color: $white;
+    }
+
+    a {
+      font-weight: 200;
+      color: $white;
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      text-decoration: none;
+
+      i {
+        color: $blue-300;
+        margin-right: 1rem;
+      }
+
+      b {
+        color: $blue-300;
+        font-weight: 700;
+        text-decoration: underline;
+      }
+    }
+  }
+}

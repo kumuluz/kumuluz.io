@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="376"
+   height="241"
+   viewBox="0 0 376 241"
+   version="1.1"
+   id="svg44"
+   sodipodi:docname="section7-icon.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata48">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview46"
+     showgrid="false"
+     inkscape:zoom="2.1363652"
+     inkscape:cx="188.19466"
+     inkscape:cy="79.441725"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Group" />
+  <title
+     id="title2">Group</title>
+  <desc
+     id="desc4">Created using Figma</desc>
+  <g
+     id="Canvas"
+     transform="translate(574 -5929)">
+    <g
+       id="Group">
+      <g
+         id="Vector">
+        <use
+           xlink:href="#path0_fill"
+           transform="translate(-525.5 5929)"
+           id="use6"
+           fill="#5794FD" />
+      </g>
+      <g
+         id="g11">
+        <use
+           xlink:href="#path1_fill"
+           transform="translate(-574 5929)"
+           id="use9"
+           fill="#1B9DFF" />
+      </g>
+      <g
+         id="g15"
+         transform="translate(0,0.0038)">
+        <use
+           xlink:href="#path2_fill"
+           transform="translate(-285.5,6054.26)"
+           id="use13"
+           style="fill:#1b9dff"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <g
+         id="g19">
+        <use
+           xlink:href="#path3_fill"
+           transform="translate(-237 5929)"
+           id="use17"
+           fill="#1C49C3" />
+      </g>
+      <g
+         id="g23">
+        <use
+           xlink:href="#path4_fill"
+           transform="translate(-525.5 6054.26)"
+           id="use21"
+           fill="#155BFB" />
+      </g>
+      <g
+         id="g27"
+         transform="matrix(1.1290323,0,0,1,67.806474,0)">
+        <use
+           xlink:href="#path5_fill"
+           transform="translate(-525.5,6119.9)"
+           id="use25"
+           style="fill:#155bfb"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <g
+         id="g860"
+         transform="matrix(1.1290322,0,0,1,66.923366,0)">
+        <use
+           id="use858"
+           transform="translate(-453.75,6119.9)"
+           xlink:href="#path6_fill"
+           style="fill:#1c49c3"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <g
+         id="g860-9"
+         transform="matrix(1.1290322,0,0,1,147.04836,0)"
+         style="fill:#1b9dff;fill-opacity:1">
+        <use
+           id="use858-3"
+           transform="translate(-453.75,6119.9)"
+           xlink:href="#path6_fill"
+           style="fill:#1b9dff;fill-opacity:1"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+  </g>
+  <defs
+     id="defs42">
+    <path
+       id="path0_fill"
+       d="M 230.25 0L 0 0L 0 115.74L 230.25 115.74L 230.25 0Z" />
+    <path
+       id="path1_fill"
+       d="M 39 0L 0 0L 0 240.999L 39 240.999L 39 0Z" />
+    <path
+       id="path2_fill"
+       d="M 39 0L 3.8147e-06 0L 3.8147e-06 115.74L 39 115.74L 39 0Z" />
+    <path
+       id="path3_fill"
+       d="M 39 0L 7.62939e-06 0L 7.62939e-06 240.999L 39 240.999L 39 0Z" />
+    <path
+       id="path4_fill"
+       d="M 230.25 0L 0 0L 0 55.8658L 230.25 55.8658L 230.25 0Z" />
+    <path
+       id="path5_fill"
+       d="M 62 -7.64524e-06L 0 -7.64524e-06L 0 50.1038L 62 50.1038L 62 -7.64524e-06Z" />
+    <path
+       id="path6_fill"
+       d="M 62 -7.64524e-06L -3.8147e-06 -7.64524e-06L -3.8147e-06 50.1038L 62 50.1038L 62 -7.64524e-06Z" />
+  </defs>
+</svg>

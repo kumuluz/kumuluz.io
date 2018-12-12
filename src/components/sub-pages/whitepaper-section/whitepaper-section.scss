@@ -1,0 +1,23 @@
+@import '../../../layouts/variables';
+
+.whitepaper-section {
+  background: $blue-700;
+
+  &.light {
+    background: $blue-300;
+  }
+
+  h2 {
+    color: $white;
+    text-transform: none;
+  }
+  h5 {
+    color: $white;
+    font-size: 1.313rem;
+  }
+
+  p {
+    color: $grey-100;
+    opacity: 0.75;
+  }
+}

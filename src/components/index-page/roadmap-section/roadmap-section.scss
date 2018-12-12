@@ -1,0 +1,196 @@
+@import '../../../layouts/variables';
+
+.roadmap-section {
+  h5 {
+    color: $blue-300;
+    margin-bottom: 1rem;
+    font-size: 1.313rem;
+  }
+  h3 {
+    color: $blue-700;
+    margin-bottom: 2rem;
+    text-transform: none;
+    font-size: 2.375rem;
+  }
+
+  @media (max-width: 991px) {
+    .line {
+      position: relative;
+
+      .year {
+        position: relative;
+        font-family: $fjalla-one;
+        color: $grey-500;
+        font-weight: 700;
+        text-align: left;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+        align-items: center;
+        justify-content: flex-end;
+
+        .text {
+          font-family: $open-sans;
+          text-transform: uppercase;
+          font-weight: 600;
+          margin-left: 1.5rem;
+
+          div {
+            text-transform: none;
+            font-weight: 200;
+          }
+        }
+
+        &:after {
+          content: '';
+          display: block;
+          height: 40px;
+          width: 40px;
+          background: $blue-300;
+          border-radius: 8px;
+
+          border: 4px solid $white;
+          z-index: 3;
+
+          margin-left: -62px;
+          margin-right: 1rem;
+          flex: 0 0 40px;
+        }
+        &.active:before {
+          position: absolute;
+          content: '';
+          display: block;
+          height: 56px;
+          width: 56px;
+          background: $blue-300;
+          border-radius: 8px;
+          left: -70px;
+          top: 30px;
+          z-index: 2;
+
+          @media (min-width: 768px) { 
+            top: 8px;
+           }
+        }
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        border-left: 10px dotted $blue-100;
+        height: 100%;
+        top: 0;
+        z-index: 1;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    .line {
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+
+      .year {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        font-family: $fjalla-one;
+        color: $grey-500;
+        text-align: center;
+
+        &:nth-child(2n + 1) {
+          .text {
+            top: -135px;
+            width: 350px;
+            left: -151px;
+          }
+          &:before {
+            content: '';
+            margin-bottom: 0.75rem;
+          }
+        }
+        &:nth-child(2n + 2) {
+          margin-top: -36px;
+
+          .text {
+            bottom: -100px;
+            width: 350px;
+            left: -153px;
+
+            &:after {
+              bottom: 0;
+              top: -35px;
+            }
+          }
+          &:after {
+            content: '';
+            margin-top: 0.75rem;
+          }
+        }
+        .text {
+          position: absolute;
+
+          font-family: $open-sans;
+          text-transform: uppercase;
+          font-weight: 600;
+
+          div {
+            text-transform: none;
+            font-weight: 200;
+          }
+
+          &:after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            height: 25px;
+            background: $blue-300;
+            bottom: -35px;
+            left: calc(50% - 6px);
+          }
+        }
+
+        &:before,
+        &:after {
+          display: block;
+          height: 40px;
+          width: 40px;
+          background: $blue-300;
+          border-radius: 8px;
+
+          border: 4px solid $white;
+          z-index: 3;
+        }
+
+        &:nth-child(2n + 1).active:after, &:nth-child(2n + 2).active:before {
+          position: absolute;
+          content: '';
+          display: block;
+          height: 60px;
+          width: 60px;
+          background: $blue-300;
+          border-radius: 8px;
+          left: -10px;
+          top: -10px;
+          z-index: 1;
+        }
+        &:nth-child(2n + 2).active:before{
+          top: 25px;
+        }
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        border-bottom: 10px dotted $blue-100;
+        width: 100%;
+        top: 15px;
+        z-index: 1;
+        left: 0;
+      }
+    }
+  }
+}

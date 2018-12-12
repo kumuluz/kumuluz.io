@@ -1,0 +1,362 @@
+{
+  "banner": {
+    "title": "Platform",
+    "content":
+      "Kumuluz dAPI is the next generation decentralized API (dAPIs) digital platform to make your applications (dApps) truly decentralized and to help you speed-up the development, considerably reduce the time-to-market, reduce technology-related risks, scale and secure your digital products, significantly reduce down-time and enable running your applications on any decentralized or centralized cloud and any Blockchain and smart-contract platform."
+  },
+  "quote":
+    "Kumuluz dAPI platform brings together a few <b>core technological innovations</b> that will enable developers to <b>build truly decentralized blockchain applications and digital products in the fastest way possible</b> without any compromises in scalability, performance, security, resilience and decentralization.",
+  "sidebar": {
+    "title": "Explore the innovative features of the Kumuluz dAPI platform:",
+    "dAPIs": "dAPIs",
+    "cloudAbstraction": "Cloud abstraction",
+    "dlt": "Blockchain and smart contract abstraction",
+    "seamlessIntegration": "Seamless integration",
+    "advancedSecurity": "Advanced security",
+    "prebuiltdAPIs": "Pre-built dAPIs",
+    "marketplace": "Marketplace",
+    "community": "Community",
+    "smartContracts": "Smart contracts for dAPIs"
+  },
+
+  "dAPIs": {
+    "title": "<i>dAPIs</i>",
+    "about":
+      "dAPIs are the next generation decentralized APIs, which have been designed for <b>decentralized execution in a similar way as blockchain distributed ledger (DLT – Distributed Ledger Technology) is used for decentralized storage</b>.",
+    "trulyDecentralized": "dAPIs make your applications (dApps) <b>truly decentralized</b>."
+  },
+  "concepts": {
+    "title": "Concepts",
+    "decentalized": {
+      "title": "Decentalized",
+      "content": "Truly decentralized, distributed peer-to-peer execution."
+    },
+    "serverless": {
+      "title": "Serverless",
+      "content": "No deployment on a server or host, just seamless decentralized execution."
+    },
+    "containerized": {
+      "title": "Containerized",
+      "content": "Support for Docker containers and their decentralized extensions."
+    },
+    "cloudNative": {
+      "title": "Cloud-native",
+      "content": "Cloud-native concepts extended to decentralized applications and blockchain."
+    },
+    "fog": {
+      "title": "Fog computing",
+      "content": "Architecture that uses one or more collaborative end-user clients or near-user edge devices."
+    },
+    "kubernetes": {
+      "title": "Kubernetes and CNCF compliant",
+      "content": "Deployable to Kubernetes and compliant with the Cloud Native Computing Foundation."
+    }
+  },
+  "features": {
+    "title": "Features",
+    "protocols": {
+      "title": "Multiple protocols",
+      "content":
+        "REST, HTTP/2, gRPC with Protocol Buffers, GraphQL and others are supported. Full support for Open API, Swagger and other specifications."
+    },
+    "streaming": {
+      "title": "Event driven",
+      "content":
+        "Event driven APIs and asynchronous communication is supported on platforms such as Kafka or messaging, such as ActiveMQ and RabbitMQ."
+    },
+    "reactive": {
+      "title": "Reactive",
+      "content": "dAPIs support reactive programming to achieve loose-coupling and easier maintenance."
+    },
+    "peerToPeer": {
+      "title": "Peer-to-peer discovery",
+      "content": "Dynamic, peer-to-peer discovery of dAPIs and microservices using etcd or Consul."
+    },
+    "config": {
+      "title": "Decentralized configuration",
+      "content": "dAPI configuration is externalized in a decentralized way."
+    },
+    "nanoApi": {
+      "title": "Nano API gateways",
+      "content": "Next generation API gateways, small, efficient and peer-to-peer."
+    },
+    "health": {
+      "title": "Health checks and Metrics",
+      "content":
+        "Built-in health checks and runtime metrics collection prevent failures and enable predictive actions, self-healing and maintenance."
+    },
+    "logging": {
+      "title": "Decentralized logging",
+      "content": "All logs are collected and stored in a decentralized peer-to-peer way."
+    },
+    "management": {
+      "title": "Management",
+      "content": "Management of dAPIs, microservices, run-time environment and all related aspects to provide a production-class platform."
+    },
+    "devops": {
+      "title": "DevOps",
+      "content": "Fully aligned with DevOps, continuous integration, deployment and delivery. Support for automated testing."
+    }
+  },
+  "programmingLanguages": {
+    "title": "Programming languages",
+    "content": "Kumuluz dAPIs can be developed in any programming language, including but not limited to:",
+    "langs": {
+      "java": "Java",
+      "node": "Node.js",
+      "go": "Go",
+      "kotlin": "Kotlin",
+      "python": "Python",
+      "cs": "C#"
+    },
+    "content2": "Choose whatever language or platform you want for each individual dAPI."
+  },
+  "scalability": {
+    "title": "Scalability and elasticity",
+    "content":
+      "dAPIs are automatically scalable and provide infinite elasticity, limited only by the total number of nodes. Due to the decentralized execution, they scale horizontally with low latency and automatically adapt to user demand and data load.",
+    "checkboxes": {
+      "horizontal": "Horizontal scalability",
+      "elasticity": "Infinite elasticity",
+      "latency": "Low latency",
+      "performance": "High performance",
+      "userDemand": "Automatic adoption to user demand",
+      "dataLoad": "Automatic adoption to computation and data load"
+    }
+  },
+  "faultTolerance": {
+    "title": "Fault tolerance",
+    "content":
+      "dAPIs implement state-of-the-art fault tolerance mechanisms to provide resilience and make sure that your applications never fail again. Fault tolerance mechanisms can detect individual problems with each dAPI and take corrective measures automatically. They also allow for implementing self-healing principles.",
+    "checkboxes": {
+      "circuitBreakers": "Circuit breakers",
+      "bulkheads": "Bulkheads",
+      "timeout": "Timeout pattern",
+      "retry": "Retry pattern",
+      "fallback": "Automatic fallback",
+      "failFast": "Fail fast pattern"
+    }
+  },
+  "security": {
+    "title": "Advanced security",
+    "content": "To improve security of decentralized applications, Kumuluz introduces innovative, state-of-the-art security mechanisms:",
+    "points": {
+      "protocol": "Permissioned and permissionless dAPIs based on the trust protocol",
+      "proof": "POW (Proof-of-work), POS (Proof-of-stake) and POA (Proof-of-authenticity) support",
+      "oauth": "OAuth2 and OpenID Connect support",
+      "federation": "Federation with LDAP and IAM (Identity and Access Management) systems",
+      "gdpr": "Tools to enable you achieving GDPR faster and with less complications"
+    },
+    "checkboxes": {
+      "security": "Higher security",
+      "simple": "Simplified development",
+      "gdpr": "GDPR compliance"
+    },
+    "highlight": "Avoid technology lock-in - Secure your investment into application development",
+    "content2":
+      "With Kumuluz, you can build applications that can be run on any <i> centralized or decentralized cloud infrastructure distributed ledger technology smart-contract technology </i> centralized or decentralized file system or database by using the Kumuluz technology abstraction layer.",
+    "runAnywhere":
+      "<b>Write your code once and run it on any</b> distributed ledger technology (Ethereum, Hyperledger Fabric, R3 Corda, etc.), distributed storage (Sorej, etc.), infrastructures (Eos, Kubernetes, etc.) etc.",
+    "deploy":
+      "<b>Deploy and run your applications</b> on decentralized infrastructure (Golem, Sonm, iExec, etc.) or centralized (Amazon AWS, Google Cloud, Azure, etc.) or a combination of both."
+  },
+  "cloudAbstraction": {
+    "title": "Cloud abstraction",
+    "risk": {
+      "title": "Risk",
+      "content1":
+        "You have to select upfront, which cloud you will use to run your applications. You have the choice between decentralized (Golem, Sonm, …) and centralized (Google, AWS, Azure, …) clouds.",
+      "content2": "Changing this decision later is expensive and time consuming.",
+      "content3":
+        "Your final goal might be decentralized cloud, however currently they might not be mature enough, so you want to provide support for centralized cloud as well."
+    },
+    "solution": {
+      "title": "Solution - The Kumuluz Cloud Abstraction Layer",
+      "content1":
+        "Deploy and run your applications on any centralized or decentralized cloud <b>without any modifications in your source code</b>.",
+      "content2": "The Kumuluz cloud abstraction layer consist of:",
+      "points": {
+        "cloud":
+          "<b>Cloud infrastructure abstraction</b> to support different decentralized and centralized cloud providers without modifications in your source code. To achieve this, it will provide enhanced Docker containers, extended with decentralized execution functionality.",
+        "file":
+          "<b>File system abstraction</b>, which allows your applications to use different decentralized (Storj, Filecoin, …) or centralized file system (NFS, …) solutions without any modifications in your source code.",
+        "database":
+          "<b>Database abstraction</b>, which allows your applications to use different decentralized databases (BigchainDB, FlureeDB, etc) or centralized databases (SQL such as Postgresql, MySQL, Oracle, etc. or NoSQL, such as MongoDB, Cassandra, etc) without modifications in your source code."
+      }
+    }
+  },
+  "dlt": {
+    "title": "Blockchain distributed ledger and smart contract abstraction",
+    "content":
+      "With Kumuluz, you can build applications that can use any blockchain distributed ledger technology and smart-contract technology. Write your code once and run it on any distributed ledger technology (Ethereum, Hyperledger Fabric, R3 Corda, etc.).",
+    "risk": {
+      "title": "Risk/problem",
+      "content1":
+        "To develop blockchain applications, you have to select upfront, which blockchain distributed ledger technology (DLT) and smart contract platform you will use (Ethereum, Bitcoin, Hyperledger Fabric, etc.). The selection impacts the design and code of your application and makes later changes expensive and time consuming.",
+      "content2":
+        "You also need to answer the question whether to use a private or public blockchain, permissioned or permissionless blockchain, POW, POS or POA.",
+      "content3":
+        "These decisions need to be taken upfront. However, if you choose wrong, this will heavily impact your application and you will have to rewrite parts of code, which will considerably delay your time-to-market."
+    },
+    "solution": {
+      "title": "Solution - Kumuluz Blockchain Abstraction Layer",
+      "content":
+        "Develop applications independently of the chosen distributed ledger (DLT) and smart-contract platform. You can switch between supported DLTs and smart contract platforms without changing your code.",
+      "checkboxes": {
+        "private": "Private or public",
+        "permissioned": "Permissioned or permissionless blockchains",
+        "pow": "POW, POS or POA",
+        "hidden": "Hidden complexity and differences between blockchain platforms",
+        "once": "Write code once and run it anywhere"
+      },
+      "points": {
+        "dlt": "DLT abstraction",
+        "smart": "Smart contract abstraction ",
+        "events": "Blockchain events",
+        "explorer": "Blockchain explorer",
+        "transaction": "Transaction management"
+      }
+    }
+  },
+  "seamlessIntegration": {
+    "title": "Seamless integration",
+    "content1":
+      "Kumuluz integration adapters handle the complex related to integration of your application with external applications and systems.",
+    "content2": "To simplify common integration tasks, Kumuluz will facilitate a library of integration adapters, including:",
+    "points": {
+      "crypto": "Crypto Exchange integration",
+      "fiat": "PSD2, SWIFT, SEPA integration with FIAT",
+      "enterprise": "Enterprise integration via API, web services, queues, connectors and adapters",
+      "erp": "ERP integration such as SAP, Dynamics, etc.,",
+      "crm": "CRM integration such as Salesforce, etc.",
+      "scm": "SCM integration",
+      "b2b": "B2B and B2G workflows",
+      "iot": "Integration with IoT devices and Industry 4.0 devices",
+      "bigData": "Integrations with leading BigData, FastData and Event Processing tools and platforms"
+    }
+  },
+  "image": {
+    "now": {
+      "title": "Now",
+      "content": "Every development team needs to write their own common functionalities."
+    },
+    "withKumuluz": {
+      "title": "With Kumuluz",
+      "content":
+        "Every development team can easily use the common functionalities and focus their development energy on their main business idea."
+    }
+  },
+  "prebuiltdAPIs": {
+    "title": "Pre-built <i>dAPIs</i>",
+    "content1":
+      "Pre-built dAPIs offer reusable functionalities that can be easily added to your application. This way, instead of coding everything line by line, you can use pre-built dAPIs and use them in a similar way as pre-built components are used in other engineering disciplines (car manufacturing, construction, electronics, etc.).",
+    "content2":
+      "Pre-built dAPIs can accelerate the development by an order of magnitude and result in more reliable applications, as dAPIs are pretested. If you reuse a dAPI, you will not introduce additional bugs into your application.",
+    "content3":
+      "Composing applications out of pre-built dAPIs opens a new perspective on how decentralized applications can be developed more efficient, with less code and in shorter time.",
+    "developed": {
+      "title": "Already developed dAPIs",
+      "checkboxes": {
+        "userManagement": "User/Customer Management, Registration, Login",
+        "kyc": "KYC/AML",
+        "ccm": "Customer engagement and Communication Management <small>(push, email, sms, telegram, FB messenger, …)</small>"
+      }
+    },
+    "pipeline": {
+      "title": "dAPIs in pipeline",
+      "checkboxes": {
+        "fiat": "FIAT Payment service",
+        "crypto": "Crypto Payment service",
+        "wallet": "Wallet",
+        "shoppingCart": "Shopping Cart",
+        "order": "Order Management",
+        "fulfillment": "Fulfillment",
+        "invoice": "Invoice",
+        "billing": "Billing",
+        "subscription": "Subscription Management",
+        "smart": "Smart contract templates",
+        "catalogue": "Product Catalogue",
+        "reporting": "Reporting",
+        "revision": "Revision log",
+        "transaction": "Transaction Management",
+        "cms": "Decentralized CMS",
+        "cdn": "CDN",
+        "docVault": "Document Management Vault",
+        "office": "Office Connector"
+      }
+    },
+    "timeline": "For the full list of microservices please read <a href='/roadmap'>our timeline</a>.",
+    "developer": "Are you developer seeking for a dAPI? <b>Tell us what you need</b>",
+    "scheme": "<a href='#'>Check out</a> our incentive scheme for dAPI developers",
+    "content4":
+      "Business and other dAPIs are listed in the <i>marketplace</i>. Every developer can develop and contribute their own dAPIs. "
+  },
+  "marketplace": {
+    "title": "Marketplace",
+    "content":
+      "Kumuluz Marketplace is the “app store” for dAPIs (decentralized APIs and microservices). In marketplace, you can browse the catalogue for specific dAPIs that suit your needs. To kickstart the marketplace properly, we will already provide a rich library of pre-built dAPIs for other to use. With such marketplace available, the blockchain industry will finally be able to move forward with warp speed."
+  },
+  "community": {
+    "title": "Community",
+    "content":
+      "Marketplace is built around the developer community, which will contribute dAPIs for common functionalities. Someone can also acquire developers to build specific dAPIs. Kumuluz relies on the developer community to contribute.",
+    "roles": {
+      "title": "Roles in the Kumuluz Community",
+      "consumer": {
+        "title": "dAPI consumers",
+        "content":
+          "those, who search, find and use Kumuluz dAPIs published in marketplace and distributed as decentralized APIs and microservices  (containers)."
+      },
+      "developer": {
+        "title": "dAPI developers",
+        "content": "those, who develop dAPIs and publish them in the marketplace for others to use."
+      },
+      "miner": {
+        "title": "dAPI miners",
+        "content":
+          "those, who dedicate their resources to test, verify and validate dAPIs to guarantee bug and error-free operation and 24/7 availability of dAPIs."
+      }
+    }
+  },
+  "smartContracts": {
+    "title": "Smart contracts for <i>dAPIs</i>",
+    "content1":
+      "dAPIs can be free or they might require that you pay. Developers define the licensing rules.",
+    "content2":
+      "The marketplace for dAPIs will be powered by smart contracts, so every contributor to the Kumuluz and blockchain community can be paid fairly.",
+    "licencing": {
+      "title": "Licensing and IP model",
+      "content1":
+        "Kumuluz introduces a novel, innovative licensing and IP (Intellectual Property) management platform, powered by smart contracts. It allows dAPI providers to specify different use cases and prices based on usage scenarios. Smart contracts and Kumuluz run-time ensure that compensation takes place immediately after usage automatically.",
+      "content2":
+        "Kumuluz licensing model allows developers to specify almost any pricing model, which is enforced by smart contract automatically. ",
+      "content3":
+        "This is not limited to subscription or pay-per-call, but can include specific usage scenarios. For example, a dAPI developer can define pricing based on:",
+      "points": {
+        "usage":
+          "usage scenario (using a dAPI for testing is free, for production is charged per call or per transaction or subscription based)",
+        "price": "can be free of charge up to a specific number of requests daily, afterwards its charged",
+        "load": "number of users or data load",
+        "execution": "execution environment parameters",
+        "other": "other models"
+      },
+      "content4": "Kumuluz licensing and IP management reduces frauds and eliminates unauthorized and unlicensed usage of software. "
+    },
+    "incentive": {
+      "title": "Incentive model",
+      "content1": "To on-board <b>developers</b> and <b>miners</b>, Kumuluz Marketplace will set-up an incentive schema, where:",
+      "points": {
+        "developers": "Developers will be rewarded for contributing new dAPIs (based on their functionality, quality and popularity)",
+        "miners":
+          "Miners will be rewarded based on the quality, quantity and speed for dAPI verification. Verifying dAPI requires miners to dedicate their computing resources to perform the testing, based on different criteria. Miners get rewards after successful validation."
+      },
+      "content2": "Are you a developer interested in publishing dAPIs on the market? Are you a miner? <b>Contact us!</b>"
+    }
+  },
+  "whitepaper": {
+    "subtitle": "Whitepaper",
+    "title": "Get more info about the platform of Kumuluz",
+    "content":
+      "dAPIs are the next generation decentralized APIs, which have been designed for decentralized execution in a similar way as blockchain distributed ledger is used for decentralized storage."
+  }
+}

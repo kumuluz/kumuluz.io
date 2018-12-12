@@ -1,0 +1,112 @@
+@import '../../layouts/variables';
+
+.use-cases-section {
+  background: url(../../assets/images/bg-shapes-15.svg), linear-gradient(to right, $blue-300 0.44%, $blue-400 100.14%);
+  background-position: 95% 100px, 0 0;
+  background-size: 35%, 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  overflow: hidden;
+
+  h3 {
+    color: $white;
+  }
+
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .blocks {
+    display: flex;
+    transition: all 0.5s ease;
+  }
+
+  .block {
+    background: $white;
+    padding: 2rem;
+    float: left;
+    width: 25vw;
+    margin: 0.5vw;
+
+    & > div {
+      height: 100%;
+      justify-content: space-between;
+    }
+
+    h5 {
+      color: $blue-300;
+      margin-bottom: 1rem;
+      font-size: 1.313rem;
+    }
+    h3 {
+      color: $blue-700;
+      margin-bottom: 2rem;
+      text-transform: none;
+      font-size: 2.375rem;
+    }
+    .fact {
+      display: inline-flex;
+      margin-right: 1rem;
+
+      .text {
+        color: $grey-500;
+        text-transform: uppercase;
+        font-size: 1rem;
+        line-height: 2rem;
+        padding-left: 0.5rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .pager {
+    &:after {
+      content: '';
+      display: block;
+      width: 30px;
+      height: 8px;
+      background: $blue-700;
+
+      @media (min-width: 992px) {
+        width: 60px;
+      }
+    }
+    cursor: pointer;
+
+    &.active:after {
+      background: $white;
+    }
+    &:hover:after {
+      background: $white;
+    }
+  }
+  .nav {
+    color: $blue-700;
+    cursor: pointer;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .bottom {
+    .fact {
+      background: $white;
+      display: inline-flex;
+      align-items: center;
+      padding: 0.5rem;
+
+      .tag {
+        background: $blue-400;
+        padding: 0.25rem;
+        color: $white;
+        margin-right: 0.5rem;
+        font-style: italic;
+        text-transform: uppercase;
+      }
+      .content {
+        color: $grey-500;
+      }
+    }
+  }
+}

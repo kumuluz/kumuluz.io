@@ -1,0 +1,15 @@
+@import '../../../layouts/variables';
+
+.section-three {
+  h5 {
+    color: $blue-300;
+    margin-bottom: 1rem;
+    font-size: 1.313rem;
+  }
+  h3 {
+    color: $blue-700;
+    margin-bottom: 2rem;
+    text-transform: none;
+    font-size: 2.375rem;
+  }
+}

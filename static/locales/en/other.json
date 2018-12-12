@@ -1,0 +1,105 @@
+{
+  "team": {
+    "title": "Team",
+    "content":
+      "Kumuluz team has already worked together on several successful projects. The team consists of developers, designers and business people with proven track-record (research or business based). We are all strong believers in the blockchain technology and we made our mission to help accelerate the development of different blockchain applications and digital solutions.<br/><br/> You are very welcome to contact any of our team members to get more information about the project:"
+  },
+  "press": {
+    "title": "Press",
+    "content": "About us in the press.",
+    "mediaKit": {
+      "title": "Media Kit",
+      "content": "Get stickers for the back of your laptop here!",
+      "actions": {
+        "downloadLogos": "Download logos",
+        "downloadBanners": "Download banners",
+        "prRelease": "PR Release"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "content":
+      "We have collected some of the most frequent questions. Can’t find an answer?<br />Contact us on Telegram!"
+  },
+  "useCases": {
+    "title": "Use Cases",
+    "content":
+      "Don't think Kumuluz is the right fit for you? Find yourself in one of our use cases and understand how dAPIs can be reused and included in your dApps to extend the functionalities and speed-up the development.",
+    "blocks": {
+      "title": "Use cases",
+      "content":
+        "Instead of writing thousands of lines of code from scratch, developers will be simply able to use pre-build dAPIs to fasten the development of the development. Consequently, months of hard work can be reduced to a few weeks. A few practical examples:",
+
+      "userManagement": {
+        "title": "User management <i>dAPI</i>",
+        "content":
+          "Almost every decentralized application or digital solution needs some kind of user management. Think of millions and millions of developer hours wasted, if every team develops its own solution. Now development teams will be able to simply use a pre-build user management API and focus their development efforts on more important things."
+      },
+      "customer": {
+        "title": "Know your customer <i>dAPI</i>",
+        "content":
+          "Many decentralized solutions are intended to disrupt banking, forex, insurance and other traditional industries, where safety and fraud prevention comes first. Know your customer (personal identification) is crucial for all these financial kinds of digital solutions. For many of them know your customer is a big bottleneck in their business processes and KYC dAPI will bring an end to that."
+      },
+      "payment": {
+        "title": "Payment service <i>dAPI</i>",
+        "content":
+          "Decentralized currencies like Bitcoin and other must be run on decentralized payment services. With using Payment service dAPI and dAPI wallet solution, it will be easy to integrate everything related to processing payments without writing your own code. Add Fiat and Crypto payment instruments, such as bank transfers, credit cards, crypto transfers and accept payments from any channel."
+      },
+      "cart": {
+        "title": "Shopping cart <i>dAPI</i>",
+        "content":
+          "There are many consumer based decentralized solutions in the development that will need a good shopping cart. There’s no need for everybody to develop their own solution. They can simply use Shopping cart dAPI and customize it to their needs. Get all the typical functionalities of a shopping cars, plus integration with orders and fulfillments. The development time can be reduced by 3x just by using this kind of an approach."
+      },
+      "order": {
+        "title": "Order management <i>dAPI</i>",
+        "content":
+          "Once your application sells something to the customer, you'll need order management, which will take care of all the necessary steps from the moment the order is submitted to its delivery. This includes all the fulfillment steps. Order management dAPI provides pre-built functionalities, which are configurable for digital and for physical products."
+      },
+      "invoice": {
+        "title": "Invoicing <i>dAPI</i>",
+        "content":
+          "Invoicing dAPI takes care of creating receipts and invoices in a digital format, deliver them to customers, and store them in a secure archive. Different formats, languages, tax rates and other specifics built-in makes it easy for you to extend your business worldwide and issue invoices in accordance with laws and regulations all over the world."
+      },
+      "cms": {
+        "title": "Decentralized CMS <i>dAPI</i>",
+        "content":
+          "Inbound and quality content is the most important marketing tool on the internet. There’s almost no company without a blog or some form of content. And to publish content you need some kind of content management system (CMS). There are many popular CMS like Wordpress, Drupal etc. but they are not decentralized."
+      },
+      "ccm": {
+        "title": "Customer engagement <i>dAPI</i>",
+        "content":
+          "There’s no successful business without consistent communication with existing and potential customers. Usually the communication is push notification, e-mail, social or SMS based. Customer engagement dAPI enables to easily add such services to your application. Yes, new sexy features can be easily added to decentralized digital solutions using Kumuluz platform and its marketplace."
+      }
+    },
+    "stats": {
+      "content": "Some statistics for the Kumuluz dAPIs target groups:",
+      "nums": {
+        "ico": {
+          "num": 2000,
+          "name": "ICOs"
+        },
+        "startup": {
+          "num": 100000,
+          "name": "Start-ups"
+        },
+        "osp": {
+          "num": 80000,
+          "name": "Open source projects"
+        },
+        "bcDev": {
+          "num": 25000,
+          "name": "Blockchain developers"
+        }
+      }
+    },
+    "awards": {
+      "subtitle": "Awards",
+      "title": "A prestigious Java Duke's Choice Award Winner",
+      "content":
+        "Kumuluz has won the prestigious Java Duke's Choice Award. The Duke's Choice Award is the Java community equivalent of winning an Oscar. The award celebrates extreme innovation using Java technology. Java Duke's Choice Award winners are recognition as an elite member of the Java ecosystem.",
+      "eurocloud": "EuroCloud Award for the most innovative cloud service",
+      "startup": "Slovenian Start:up of the Year Finalist"
+    }
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "banner": {
+    "title": "Roadmap",
+    "content": "All the stuff that we did so far. All the stuff that we plan to do."
+  },
+  "toggle": {
+    "show": "Show what we did so far!",
+    "hide": "Hide what we did so far!"
+  },
+  "timeline": {
+    "title": "What we did so far",
+    "events": {
+      "oct2013": {
+        "time": "October 2013",
+        "title": "Initial ideas for the microservice and API architecture",
+        "content1":
+          "The concept of the microservice architecture was born somewhere between 2011 and 2012, when Netflix and other renowned software engineers described the approach as “fine grained SOA”. Since then the term and practical use of microservice architecture is in high growth and becoming more and more popular.",
+        "content2":
+          "The core of our team already worked together on different software projects in that time with considerable experience in SOA (including many project, book and article publications). Having also research and academic background, instantly were hooked by idea. We started to dedicate more and more time and energy into mastering microservices, APIs and all the technologies around the architecture."
+      },
+      "feb2014": {
+        "time": "February 2014",
+        "title": "Development of the Kumuluz microservice framework started",
+        "content1":
+          "In the beginning of 2014 we made a big step forward. We started to synthesize all our ideas into a single platform with having a real commercial use cases in mind. We started the development of the initial Kumuluz microservice framework. We started to talk with companies, getting to know what would take for their transition from monolithic software to the microservice architecture.",
+        "content2":
+          "The initial microservice framework was centralized and at first supported the Java language and the Java SE and EE platform. We named the platform Kumuluz, which emphasizes the fact that the architecture behind is specifically designed for the execution in the cloud. This has later become known as the cloud-native architecture."
+      },
+      "apr2014": {
+        "time": "April 2014",
+        "title": "First national and international recognitions of our work",
+        "content":
+          "Kumuluz won the recognized EuroCloud Award for the most innovative cloud service. The company behind the Kumuluz platform became the finalist of national Start:up of the Year competition."
+      },
+      "sep2014": {
+        "time": "September 2014",
+        "title": "Development of Kumuluz API management started",
+        "content":
+          "One of the most important and complex modules of the Kumuluz platform is the API management. RESTful APIs are how microservices are communicating with each other and thus the core enabler of the microservice architecture. It was self-evident that every company in desire to implement microservice architecture would need an API management solution. Such a building block was consequently a great entry point to get our first customers. At that time however it was not clear yet that APIs will have economy-wide impact that will outgrow its technical-only notion."
+      },
+      "jan2015": {
+        "time": "January 2015",
+        "title": "Kumuluz team is expanding",
+        "content":
+          "After the first year of development we have added some new members to our team. In the ending months of the 2014 and first months of the 2015 we have strengthen our team and now there are already 10 people actively involved with the Kumulz platform on daily basis. They are involved in the design, development, testing, marketing and key customer support of the Kumulz platform."
+      },
+      "jun2015": {
+        "time": "June 2015",
+        "title": "First releases of Kumuluz APIs and microservices ",
+        "content1":
+          "After two years of very intensive development and putting efforts into understanding our market, we released the first version of Kumuluz, offering a lightweight open-source microservice framework for Java EE and an API management solution for microservices. Both products were pioneers.",
+        "content2": "First releases got us a lot of attention in the press and among our potential customers."
+      },
+      "sep2015": {
+        "time": "September 2015",
+        "title": "Duke's Choice Award for the Kumuluz microservice framework",
+        "content":
+          "Kumuluz has won the prestigious Java Duke's Choice Award. The Duke's Choice Award is the Java community equivalent of winning an Oscar. The award celebrates extreme innovation using Java technology. Java Duke's Choice Award winners are recognition as an elite member of the Java ecosystem."
+      },
+      "jan2016": {
+        "time": "January 2016",
+        "title": "Kumuluz used on several projects",
+        "content":
+          "Kumuluz has gained attention in the developer circles and has been used in several national and international projects, including the EU-funded 7th Framework and Horizont 2020 projects AgroIT and Flexiciency."
+      },
+      "feb2016": {
+        "time": "February 2016",
+        "title": "Kumuluz in the news",
+        "content":
+          "We have published an article in <a target='_blank' rel='noopener noreferrer' href='http://www.javamagazine.mozaicreader.com/JanFeb2016#&pageSet=80&page=0&contentItem=0'>Java Magazine</a> about building microservices with our KumuluzEE framework. Many foreign news media and blogs have reported about KumuluzEE, including:",
+        "point1":
+          "<a target='_blank' rel='noopener noreferrer' href='http://www.forbes.com/sites/oracle/2015/11/14/cloud-and-internet-of-things-fuel-javas-ongoing-momentum/#4ba020f32a7d'>Forbes</a>",
+        "point2":
+          "<a target='_blank' rel='noopener noreferrer' href='https://dzone.com/articles/2015-dukes-choice-award-winners-announced'>DZone</a>",
+        "point3": "<a target='_blank' rel='noopener noreferrer' href='http://www.infoq.com/news/2016/02/javaee-microservices'>InfoQ</a>",
+        "point4": "<a target='_blank' rel='noopener noreferrer' href='https://community.oracle.com/docs/DOC-949972'>Oracle</a>",
+        "point5":
+          "<a target='_blank' rel='noopener noreferrer' href='http://www.guigarage.com/2015/11/dolphin-platform-kumuluzee-javaee-microservices-with-dynamic-and-rich-frontends/'>GuiGarage</a>",
+        "point6":
+          "Blogs <a target='_blank' rel='noopener noreferrer' href='http://www.itdadao.com/article/374483/'>IT Avenue</a> and <a target='_blank' rel='noopener noreferrer' href='http://blog.arungupta.me/docker-kubernetes-microservices-devoxx-2015/'>Arun Gupta</a>"
+      },
+      "mar2016": {
+        "time": "March 2016",
+        "title": "Kumuluz version 2 has been released",
+        "content":
+          "Based on the feedback from our so called “early evangelists” – companies that were willing to give us feedback on the product, so they could start using it as soon as possible, the flourishment of microservices architecture and our new and new ideas we released the second version of Kumuluz. The second version was ready for real commercial projects."
+      },
+      "apr2016": {
+        "time": "April 2016",
+        "title": "More and more customers are using Kumuluz for production",
+        "content1":
+          "Next to our “early evangelists” there was more and more demand on the market. In 2016 we got more customers than we could handle, so we started to expand our team. We made sure that every new team member was really enthusiastic about the microservice architecture, and even more importantly top-notch developer as our core team is.",
+        "content2":
+          "In 2016 we already had several very renowned customers (blue chips and innovative SMEs) home and abroad. Here’s the list of some of them:"
+      },
+      "sep2016": {
+        "time": "September 2016",
+        "title": "JavaOne presentation",
+        "content":
+          "Tilen Faganel held a session »Migrate Java EE Applications to Microservices and Oracle Java Cloud« on JavaOne 2016 in San Francisco. They demonstrate how to migrate existing Java EE applications into microservices. The session explains how to define microservice boundaries, how to do circuit breakers, and how to pack and bootstrap Java EE microservices."
+      },
+      "jan2017": {
+        "time": "January 2017",
+        "title": "We started our Blog",
+        "content1": "<a target='_blank' rel='noopener noreferrer' href='http://blog.kumuluz.com'>blog.kumuluz.com</a>",
+        "content2":
+          "Kumulz microservice platform is gaining attraction. More and more developers are utilizing our platform to build microservices. Our platform has already gotten multiple modules and extensions added and we are already planning new features. Feature-full platform becomes complex for the developers, who are using platform for the first time, therefore we have decided to create a blog to publish tutorials and detailed guides for the individual modules of our platform. At the same time blog is perfect place for notifying our users about new releases."
+      },
+      "feb2017": {
+        "time": "February 2017",
+        "title": "Microprofile.io members",
+        "content1":
+          "The MicroProfile run by Eclipse is an open-source project and a baseline platform definition that optimizes Enterprise Java for a microservices architecture and delivers application portability across multiple MicroProfile runtimes.",
+        "content2":
+          "In 2017, we became members of Microprofile.io and joined the company of the big names in this field such as IBM, RedHat, Oracle, Fujitsu and others. That was a big proof for us, that we can compete, or even more importantly, collaborate even with the biggest multinational software companies."
+      },
+      "apr2017": {
+        "time": "April 2017",
+        "title": "Design for blockchain support",
+        "content1":
+          "In the beginning of 2017 Kumuluz was already proven on the market, being constantly improved and having new features added. Besides Microservice and API building blocks we already had the following building blocks of the platform:",
+        "point1": "Microservices ",
+        "point2": "API Management",
+        "point3": "Integration",
+        "point4": "DevOps",
+        "point5": "Ux",
+        "point6": "Customer Engagement",
+        "content2":
+          "At that time, we also become very enthusiastic about another technology – <b>Blockchain</b>. We started to brainstorm how we could connect microservices and blockchain technology. Like in 2013 and 2014 again times come, when we couldn’t sleep because of all the excitement."
+      },
+      "aug2017": {
+        "time": "August 2017",
+        "title": "Rapid growth of Kumuluz product family",
+        "content":
+          "To address the real-world challenges of service discovery in the microservice architecture, unified configuration of the microservices and high-availability of critical business services we have developed extensions for the microservices platform. With these extensions, we helped our business partners and the same contributed to the open-source community as solutions are available at our GitHub page. These building blocks enable the developers to implement features like health-checking of the microservices within minutes rather than having to spend weeks in order to develop custom methods. <br/>At that time an interesting article <a target='_blank' rel='noopener noreferrer' href='https://dzone.com/articles/java-ee-microprofile-with-kumuluzee'Java EE MicroProfile With KumuluzEE</a>. Piotr Mińkowski wrote “In the world of Java EE microservices, all eyes are on MicroProfile. But KumuluzEE is already in the game. Let's link and configure some microservices.”"
+      },
+      "placeholder": {
+        "time": "2023",
+        "title": "Space",
+        "content": "Space"
+      }
+    }
+  },
+  "upcoming": {
+    "title": "So, here are our plans",
+    "events": {
+      "oct2017": {
+        "time": "October 2017",
+        "title": "Proof of concept for decentralized APIs = <i>dAPIs</i>",
+        "content1":
+          "After approximately six months of brainstorming, developing partial solutions and working with a few ICO startups and blockchain oriented enterprises, we came up with the revolutionary idea called “dAPIs”. dAPIs are the next generation decentralized APIs and microservices, which have been designed for decentralized execution in a similar way as DLT is used for decentralized storage.",
+        "content2": "At that point we knew we stumbled upon something revolutionary."
+      },
+      "q4-2017": {
+        "time": "Q4 2017",
+        "title": "Detailed design for dAPI technology",
+        "content1":
+          "In Q4 we have focused on the development of OpenAPI and Swagger support for Kumuluz APIs and microservices. Furthermore, we have added support for creating APIs and microservices with reactive development practices. This is important, as it is the first step towards truly loosely coupled services that do not rely on operation invocation, but use reactive events instead. We also developed live health check support for better resilience and self-healing of APIs and microservices.",
+        "content2": "Milestones:",
+        "milestone1": "Kumuluz Swagger support",
+        "milestone2": "Kumuluz OpenAPI support",
+        "milestone3": "Microprofile 1.2",
+        "milestone4": "Health check extensions for etcd and HTTP",
+        "milestone5": "Kumuluz Reactive support"
+      },
+      "jan2018": {
+        "time": "January 2018",
+        "title": "Project scope defined",
+        "content1":
+          "The end of the last year was fully focused on planning and defining the new scope of the project. We presented the idea to a few potential customers (blockchain startups, enterprises) and a few of our existing customers and the excitement from all sides was clearly shown. The concept of dAPIs is something that every advanced technology company will need to achieve true decentralization.",
+        "content2":
+          "The Kumuluz business idea is also a perfect fit for crowdfunding, being backed by technology enthusiasts who believe in true decentralized world. Besides dAPIs, we developed several other concepts to make Kumuluz is a real success in the blockchain world, among others:",
+        "point1": "<b>Marketplace</b> – the app-store for pre-built dAPIs",
+        "point2": "",
+        "point3": "We must not forget about <b>our strong community</b>, that’s also an important driving force behind the project",
+        "point4": "<b>Smart contracts for dAPIs</b> as an innovative licensing and IP management solution,",
+        "point5":
+          "Cloud and Blockchain <b>abstraction layer</b>, which considerably reduces technology-related risks and makes applications mode flexible."
+      },
+      "q1-2018": {
+        "time": "Q1 2018",
+        "title": "Developement of Kumuluz technology components",
+        "content1":
+          "In Q1 we are updating support for OpenAPI and Swagger. We have introduced a new version for configuring microservices, which is a step towards true decentralized configuration. Together with discovery service they provide the foundation for decentrazlization, as through discovery services, implemented in Kumuluz, API and service location becomes irrelevant for the client. We have also introduced metrics to allo real-time runtime metric collection and analysis. This is the basis for analyzing runtime performance for each API and microservice.",
+        "content2": "We have also started work on introducing Java SE 9/10+ and Java EE 8 support to our framework and are about to release the first beta. Furthermore, we have been working on adding automated testing support to APIs and microservices.",
+        "content3": "Milestones:",
+        "milestone1": "Kumuluz Swagger support",
+        "milestone2": "Kumuluz OpenAPI support",
+        "milestone3": "Config 1.1",
+        "milestone4": "Metrics 1.1",
+        "milestone5": "Discovery 1.1",
+        "milestone6": "KumuluzEE 2.5.2",
+        "milestone7": "Automated integration testing with Kumuluz Arqullian Container Adapter",
+        "milestone8": "KumuluzEE 3 beta 1"
+      },
+      "q2-2018": {
+        "time": "Q2 2018",
+        "title": "Initial release of Kumuluz Marketplace",
+        "content1": "In Q2 2018 we will focus on several important Kumuluz building blocks. Most importantly, we will introduce the first demo of the Kumuluz marketplace, which will showcase how you can find, locate, test, and use dAPIs through our marketplace. We will release a proof-of-concept demonstration for the Kumuluz dAPI Marketplace, which will show how dAPIs can be published, searched, versioned and reused out of the marketplace. We will also extend support for different API protocols, including gRPC and GraphQL. We will add support for Node.js, from which you will be able to use a native library to access config, discovery and other functionalities.",
+        "content2": "Milestones:",
+        "milestone1": "<span class=\"badge badge-warning\">Planned</span> Kumuluz Marketplace proof-of-concept demo",
+        "milestone2": "<span class=\"badge badge-warning\">Planned</span> gRPC support for APIs and microservices",
+        "milestone3": "<span class=\"badge badge-warning\">Planned</span> GraphQL support for microservices",
+        "milestone4": "<span class=\"badge badge-warning\">Planned</span> Smart contract abstraction layer for Ethereum beta version",
+        "milestone5": "<span class=\"badge badge-warning\">Planned</span> KumuluzEE 3 Beta 2",
+        "milestone6": "<span class=\"badge badge-warning\">Planned</span> Advanced Security Beta 1",
+        "milestone7": "<span class=\"badge badge-warning\">Planned</span> Fault tolerance 1.1",
+        "milestone8": "<span class=\"badge badge-warning\">Planned</span> Config 1.2",
+        "milestone9": "<span class=\"badge badge-warning\">Planned</span> REST client",
+        "milestone10": "<span class=\"badge badge-warning\">Planned</span> FIAT Payment service",
+        "milestone11": "<span class=\"badge badge-warning\">Planned</span> Shopping Cart service",
+        "milestone12": "<span class=\"badge badge-warning\">Planned</span> Crypto exchange integration adapter"
+      },
+      "q3-2018": {
+        "time": "Q3 2018",
+        "title": "Initial release of Kumuluz <i>dAPI</i> technology and pre-built <i>dAPIs</i>",
+        "content1": "In Q3 2018, we will continue the development of the decentralized API technology, which is the cornerstone of the decentralization of business logic. We will also develop the first release candidate for the Kumuluz Marketplace and present the proof-of-concept for the cloud abstraction and decentralized file abstraction layer. We will also deliver the stable release KumuluzEE 3. Furthermore, we will introduce smart contracts for dAPIs, distributed tracing and the REST client. We will also deliver Crypto Payment and Invoice services.",
+        "content2": "Milestones:",
+        "milestone1": "<span class=\"badge badge-warning\">Planned</span> dAPI technology framework Beta",
+        "milestone2": "<span class=\"badge badge-warning\">Planned</span> Kumuluz Marketplace RC 1",
+        "milestone3": "<span class=\"badge badge-warning\">Planned</span> Cloud abstraction layer proof-of-concept Beta",
+        "milestone4": "<span class=\"badge badge-warning\">Planned</span> Smart contract abstraction release",
+        "milestone5": "<span class=\"badge badge-warning\">Planned</span> Decentralized file abstraction layer Beta",
+        "milestone6": "<span class=\"badge badge-warning\">Planned</span> KumuluzEE 3 release",
+        "milestone7": "<span class=\"badge badge-warning\">Planned</span> Smart contracts for dAPIs Beta",
+        "milestone8": "<span class=\"badge badge-warning\">Planned</span> Advanced Security Beta 2",
+        "milestone9": "<span class=\"badge badge-warning\">Planned</span> Distributed tracing 1.0",
+        "milestone10": "<span class=\"badge badge-warning\">Planned</span> REST client",
+        "milestone11": "<span class=\"badge badge-warning\">Planned</span> PSD2, SWIFT, SEPA integration adapters",
+        "milestone12": "<span class=\"badge badge-warning\">Planned</span> SOAP integration adapter",
+        "milestone13": "<span class=\"badge badge-warning\">Planned</span> Message Queue (MOM) integration adapter",
+        "milestone14": "<span class=\"badge badge-warning\">Planned</span> Crypto Payment service",
+        "milestone15": "<span class=\"badge badge-warning\">Planned</span> Invoice service"
+      },
+      "q4-2018": {
+        "time": "Q4 2018",
+        "title": "Business <i>dAPIs</i> released",
+        "content1":
+          "In Q4 2018, we will release the first general availability technology for dAPIs to provide stable environment for production. We will also release the RC 2 version for the Marketplace and a new versions of the cloud and decentralized file abstraction. We will follow with the KumuluzEE 3.1 release and present the Blockchain abstraction layer. Furthermore, we will release the beta 2 version for smart contracts for dAPIs. We will also release several services, including the Wallet service, Order Management service, Fulfillment service and Smart contract templates.",
+        "content2": "Milestones:",
+        "milestone1": "<span class=\"badge badge-warning\">Planned</span> dAPI technology framework RC 1",
+        "milestone2": "<span class=\"badge badge-warning\">Planned</span> Kumuluz Marketplace RC 2",
+        "milestone3": "<span class=\"badge badge-warning\">Planned</span> Cloud abstraction layer Beta",
+        "milestone4": "<span class=\"badge badge-warning\">Planned</span> DLT abstraction beta",
+        "milestone5": "<span class=\"badge badge-warning\">Planned</span> Decentralized file abstraction Beta",
+        "milestone6": "<span class=\"badge badge-warning\">Planned</span> KumuluzEE 3.1 release",
+        "milestone7": "<span class=\"badge badge-warning\">Planned</span> Advanced Security release",
+        "milestone8": "<span class=\"badge badge-warning\">Planned</span> ERP, CRM integration adapters",
+        "milestone9": "<span class=\"badge badge-warning\">Planned</span> Blockchain abstraction layer Beta",
+        "milestone10": "<span class=\"badge badge-warning\">Planned</span> Smart contracts for dAPIs Beta 2",
+        "milestone11": "<span class=\"badge badge-warning\">Planned</span> Wallet service",
+        "milestone12": "<span class=\"badge badge-warning\">Planned</span> Order Management service",
+        "milestone13": "<span class=\"badge badge-warning\">Planned</span> Fulfillment service",
+        "milestone14": "<span class=\"badge badge-warning\">Planned</span> Smart contract templates"
+      },
+      "2019": {
+        "time": "2019",
+        "title": "Expansion",
+        "content1":
+          "In 2019 we plan fast expansion on the global market, Kumuluz marketplace being truly alive.",
+        "content5":
+          "<b>Want to know more about our final vision?</b> Well, our vision is to make the world truly decentralized. We want to empower every blockchain startup or enterprise to develop their products faster, in the right kind of way. We want to make sure every dApps development team can truly develop decentralized digital solutions on all the software layers.",
+        "content3":
+          "And we want to organize a strong community, together with a marketplace, that will accelerate and give a new edge to the (r)evolution of the new blockchain era that is without doubt the future we all strive for. ",
+        "content4": "Back our vision and join us on our mission today.",
+        "content2": "Milestones:",
+        "milestone1": "<span class=\"badge badge-warning\">Planned</span> dAPI technology framework 1.x",
+        "milestone2": "<span class=\"badge badge-warning\">Planned</span> Kumuluz Marketplace 2.x",
+        "milestone3": "<span class=\"badge badge-warning\">Planned</span> Cloud abstraction layer release",
+        "milestone4": "<span class=\"badge badge-warning\">Planned</span> DLT abstraction release",
+        "milestone5": "<span class=\"badge badge-warning\">Planned</span> Decentralized file abstraction release",
+        "milestone6": "<span class=\"badge badge-warning\">Planned</span> KumuluzEE 4 release",
+        "milestone7": "<span class=\"badge badge-warning\">Planned</span> Blockchain abstraction layer release",
+        "milestone8": "<span class=\"badge badge-warning\">Planned</span> Smart contracts for dAPIs release",
+        "milestone9": "<span class=\"badge badge-warning\">Planned</span> IoT/I4.0 integration adapters",
+        "milestone10": "<span class=\"badge badge-warning\">Planned</span> Billing",
+        "milestone11": "<span class=\"badge badge-warning\">Planned</span> Subscription Management",
+        "milestone12": "<span class=\"badge badge-warning\">Planned</span> Smart contract templates",
+        "milestone13": "<span class=\"badge badge-warning\">Planned</span> Product Catalogue",
+        "milestone14": "<span class=\"badge badge-warning\">Planned</span> Reporting",
+        "milestone15": "<span class=\"badge badge-warning\">Planned</span> Revision log",
+        "milestone16": "<span class=\"badge badge-warning\">Planned</span> Transaction Management",
+        "milestone17": "<span class=\"badge badge-warning\">Planned</span> Decentralized CMS",
+        "milestone18": "<span class=\"badge badge-warning\">Planned</span> CDN",
+        "milestone19": "<span class=\"badge badge-warning\">Planned</span> Document Management Vault service"
+      }
+    }
+  }
+}

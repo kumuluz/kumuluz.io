@@ -1,0 +1,455 @@
+{
+  "site": {
+    "title": "Kumuluz"
+  },
+  "menu": {
+    "platform": "Platform",
+    "marketplace": "Marketplace and developer community",
+    "useCases": "Use Cases",
+    "roadmap": "Roadmap",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "team": "Team",
+    "contacts": "Contacts",
+    "press": "Press"
+  },
+  "tableOfContents": "Table of contents",
+  "categories": "Categories",
+  "all": "All",
+  "language": "Language",
+  "languages": {
+    "en": "English",
+    "sl": "Slovenian"
+  },
+  "actions": {
+    "whitepaper": "Whitepaper",
+    "businessOverview": "Business overview",
+    "subscribe": "Subscribe",
+    "joinCommunity": "Join our community",
+    "checkCode": "Check our code",
+    "presentation": "Presentation",
+    "moreInfo": "More information",
+    "viewMore": "View more",
+    "viewFullTimeline": "View full timeline",
+    "submit": "Submit",
+    "search": "Search",
+    "loadMore": "Load more"
+  },
+  "banner": {
+    "authorsSwag": "FROM THE AUTHORS OF THE AWARD WINNING KUMULUZ API AND MICROSERVICE FRAMEWORK",
+    "punchline1": "DECENTRALIZED APIs",
+    "punchline2": "NEXT GENERATION API PLATFORM FOR BLOCKCHAIN APPLICATIONS",
+    "subscribe": {
+      "title": "PRE-ICO COMING IN MARCH",
+      "description": "Subscribe to our mailing list to get the latest news and updates.",
+      "emailPlaceholder": "Your e-mail"
+    }
+  },
+  "social": {
+    "share": {
+      "facebook": "Share on Facebook",
+      "twitter": "Tweet",
+      "linkedin": "Share on LinkedIn",
+      "reddit": "Submit to Reddit"
+    }
+  },
+  "sectionOne": {
+    "title": "Use pre-built <i>dAPIs</i> from marketplace to compose your application faster",
+    "withoutKumuluz": {
+      "title": "without Kumuluz",
+      "description": "For a typical digital application you'll need <b>1 million lines of code</b> and at least <b>6 months</b>."
+    },
+    "withKumuluz": {
+      "title": "with Kumuluz",
+      "description": "You'll need <b>20 dAPIs</b>, 10 000 lines of code and only <b>6 weeks</b> for the same application."
+    }
+  },
+  "sectionTwo": {
+    "title": "Business advantages",
+    "productivity": {
+      "title": "Improved productivity",
+      "description":
+        "Develop applications by composing dAPIs instead of writing code from scratch. Shorten time-to-market by an order of magnitude by using pre-built dAPIs."
+    },
+    "flexibility": {
+      "title": "Improved flexibility",
+      "description":
+        "Write your code once and deploy it to any decentralized or centralized cloud. Use any blockchain and smart contract technology you need. Remove technology-related risks."
+    },
+    "alwaysOn": {
+      "title": "24/7 Always on",
+      "description":
+        "Decentralized APIs assure that your applications have no single point of failure. This improves fault tolerance, resilience, trust and allows for self-healing. Your digital solutions will never fail again."
+    },
+    "decentralization": {
+      "title": "True decentralization",
+      "description":
+        "Make your blockchain applications (dApps) truly decentralized by decentralizing APIs and the business logic. Adopt the dAPIs with microservice or serverless architecture for your services."
+    }
+  },
+  "quoteSection": {
+    "quote":
+      "“Digital platforms are rapidly moving up the hype cycle, illustrating the new IT realities that are possible by providing the underlining platforms that will fuel the future. Technologies such as Blockchain are poised to create the most transformative and dramatic impacts in the next five to 10 years.”",
+    "author": "",
+    "company": "Gartner Group"
+  },
+  "useCasesSection": {
+    "title": "KUMULUZ IS INTENDED FOR",
+    "cases": {
+      "freelancers": {
+        "subTitle": "",
+        "title": "Developers and freelancers",
+        "content":
+          "Developers and freelancers who work on different blockchain projects constantly look for new platforms and frameworks to improve their productivity. Based on the initial feedback, they love Kumuluz platform as other stakeholders do.",
+        "facts": {
+          "fact1": "25000 developers"
+        }
+      },
+      "startups": {
+        "subTitle": "",
+        "title": "Traditional startups",
+        "content":
+          "The nature of startups is to be fast and adapt quickly. Most of the traditional startups explore how they can leverage blockchain technology. Kumuluz platform can help them with the transition and expand the competitive edge.",
+        "facts": {
+          "fact1": "100000 traditional startups"
+        }
+      },
+      "ico": {
+        "subTitle": "",
+        "title": "ICO startups",
+        "content":
+          "All the awesome ICO startups that are developing different blockchain solutions need tools to speed up their development, deliver solutions on time and reduce the risks. Kumuluz is the perfect digital software platform that helps them reach their goals faster and with less risk.",
+        "facts": {
+          "fact1": "2 000 ICO startups"
+        }
+      },
+      "enterprises": {
+        "subTitle": "",
+        "title": "Enterprises",
+        "content":
+          "Big brands and multinationals don’t want to miss the blockchain revolution. That’s why most of the enterprises are developing their own solutions based on the blockchain technology and Kumuluz is a great solution for them to speed up the transition.",
+        "facts": {
+          "fact1": "70 000 enterprises"
+        }
+      },
+      "governments": {
+        "subTitle": "",
+        "title": "Governments",
+        "content":
+          "Many blockchain solutions can improve government efficiency. That’s why many governments around the world are already considering different applications and digital solutions for citizens they could bring on the municipal or state level.",
+        "facts": {
+          "fact1": "200 governments"
+        }
+      },
+      "openSource": {
+        "subTitle": "",
+        "title": "Open source and commercial projects",
+        "content":
+          "Blockchain has an important stand in the open-source community and in commercial projects. Kumuluz can be used to speed up the development of such projects and reduce technical and other risks.",
+        "facts": {
+          "fact1": "80 000 open source projects"
+        }
+      }
+    },
+    "facts": {
+      "title": "Facts",
+      "content": "2000 ICOs, xxx SMEs, 500 enterprises, 25000 blockchain developers, 80000 open source projects"
+    }
+  },
+  "sectionThree": {
+    "subTitle": "What is Kumuluz",
+    "title": "Next generation decentralized API and microservice digital platform",
+    "content1":
+      "Kumuluz dAPI platform introduces a few <b>core technology innovations</b> that enable developers to build truly decentralized blockchain applications and digital products in the fastest way possible without any compromises in scalability, performance, security, resilience and decentralization.",
+    "content2":
+      "Kumuluz is bringing together the <b>greatest tech minds</b>, decentralized APIs on blockchain, the microservice and serverless architectures and the best development practices to create a next-generation digital software platform that will <b>revolutionize</b> the way applications are build. It will enable developing personalized applications with the speed of a software factory in a decentralized, community-driven way."
+  },
+  "sectionFour": {
+    "dAPIs": {
+      "title": "<i>dAPI</i> technology",
+      "content":
+        "dAPIs are the next generation <b>fully decentralized</b> APIs, designed for decentralized execution in a <b>similar way as the Blockchain distributed ledger</b> is used for decentralized storage. dAPIs can be implemented as decentralized microservices or serverless. They are permissioned or permissionless, operation or event driven, support a variety of protocols, such as REST, gRPC, GraphQL, event streaming, etc., improved resilience, fault-tolerance, scalability and security."
+    },
+    "pre-dAPIs": {
+      "title": "Pre-built <i>dAPIs</i>",
+      "content":
+        "Kumuluz will provide a rich library of pre-built dAPIs with <b>common functionalities</b> that almost <b>every application requires</b>, such as Payment, Customer Management, KYC/AML, Shopping Cart, Order Management, Invoicing, Billing, Subscription Management, integration with Crypto-exchanges, Crypto token management, etc. Use Kumuluz dAPI digital platform as an easy way to compose dAPIs into working applications with <b>no or minimal coding</b>."
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "content":
+        "Marketplace is the <b>app store</b> for pre-built dAPIs. You can search the marketplace to find, select and use dAPIs that your application requires. You can also customize existing dAPIs to adapt them to your requirements. In the marketplace you will find some dAPIs which are <b>free</b> to use and some, which require <b>payment</b>."
+    },
+    "community": {
+      "title": "Community",
+      "content":
+        "A community of <b>developers</b> will contribute dAPIs to the marketplace. Do you require functionalities not found in marketplace? Engage the community and ask them to develop specific dAPIs. <b>Miners</b> will test, verify and validate dAPIs to guarantee bug and error-free operation and 24/7 availability of dAPIs."
+    },
+    "smartContracts": {
+      "title": "Smart contracts for <i>dAPIs</i>",
+      "content":
+        "dAPIs provide an <b>innovative, smart-contract based licensing</b> and IP management model, which allows dAPI publishers to specify pricing models that are fulfilled automatically each time somebody uses a dAPI."
+    }
+  },
+  "sectionFive": {
+    "content":
+      "<b>Kumuluz helps blockchain teams to really succeed with their revolutionary ideas and get a competitive edge on the market.</b><br/>If you’re anyhow involved in blockchain development, join the Kumuluz community. Let’s make the world truly decentralized!",
+    "checkboxes": {
+      "open": "OPEN SOURCED",
+      "standards": "STANDARDS-BASED",
+      "community": "COMMUNITY DRIVEN",
+      "zeroLockIn": "NO VENDOR LOCK-IN",
+      "learningCurve": "FAST LEARNING CURVE"
+    }
+  },
+  "sectionSix": {
+    "title": "Technical advantages",
+    "advantages": {
+      "seamlessIntegration": {
+        "title": "Seamless integration",
+        "content":
+          "Kumuluz integration adapters handle the complexity related to integration of your applications with external applications and systems."
+      },
+      "cloud": {
+        "title": "Deploy to any cloud",
+        "content": "Develop applications that can be deployed to any decentralized or centralized cloud without any changes to the code."
+      },
+      "abstraction": {
+        "title": "Blockchain abstraction",
+        "content":
+          "Access the Blockchain distributed ledger and smart-contract platform through an abstraction layer and make your applications independent of the specific underlying Blockchain platform."
+      },
+      "scalability": {
+        "title": "Scalability",
+        "content":
+          "Advanced scalability and elasticity on a microservice level using the latest cloud-native concepts. Make sure your applications never run out of resources, even if your user base starts growing exponentially."
+      },
+      "fault": {
+        "title": "Fault tolerance",
+        "content":
+          "Built-in fault tolerance mechanisms such as circuit breakers, fallbacks, bulkheads, etc. assure that your applications will self-heal and never fail again."
+      },
+      "security": {
+        "title": "Security",
+        "content":
+          "Advanced decentralized security and authentication mechanisms for permissioned and permissionless dAPIs, based on the trust protocol."
+      }
+    }
+  },
+  "subscribeSection": {
+    "title": "Subscribe to our mailing list",
+    "content": "Subscribe to our mailing list to get the latest news and updates."
+  },
+  "sectionSeven": {
+    "title": "KUMULUZ ARCHITECTURE",
+    "content": "For a detailed look at the Kumuluz dAPI platform architecture click the specific sections for a more detailed explanation."
+  },
+  "sectionEight": {
+    "subTitle": "Our story",
+    "title": "Kumuluz is not just an idea",
+    "content1":
+      "We have been working on (centralized) APIs and microservices since 2013. The microservice framework KumuluzEE has been the front-runner in terms of <a href=\"https://blog.kumuluz.com/kumuluzee/2017/10/29/kumuluzee-fastest-start-up-smallest-memory-footprint\" target=\"_blank\" rel=\"noopener noreferrer\">agility, start-up speed and memory consumption</a> and offers together with API management unique features for managing containerized APIs and microservices. It has been released to open source and used in several companies all over the world for running their production systems.",
+    "content2":
+      "We have received several international awards. Our team members are well known experts, who have published several books, articles, conference papers and blogs. Read more about our beginnings and our story in the <a href='roadmap'>timeline.</a>",
+    "memberOf": "Member of",
+    "duke": "Duke's Choice Award Winner (equivalent of a film Oscar)",
+    "eurocloud": "EuroCloud Award for the most innovative cloud service",
+    "startup": "Slovenian Start:up of the Year Finalist"
+  },
+  "testemonialsSection": {
+    "title": "Testimonials",
+    "quotes": {
+      "EdvardSimec": {
+        "quote":
+          "Adriatic Slovenica is using Kumuluz API and microservices for internal systems and partner integration. Kumuluz API is powering the API economy marketplace for insurance products, currently used by over 3000 partner companies in South-east Europe. Furthermore, Adriatic Slovenica is using Kumuluz Payment for online payments in its digital channels, such as <a href='https://www.wiz.si/'>Wiz</a>. Kumuluz has enabled us easier integration and better productivity and is very important for our digital channels.",
+        "author": "Edvard Šimec, CIO",
+        "company": "Adriatic Slovenica"
+      },
+      "PavelSkerlj": {
+        "quote":
+          "Petrol is using Kumuluz as the backbone for its digital products. Kumuluz microservices are powering innovative mobile applications for digital, such as <a href='http://www.petrol.si/app-na-poti'>Na poti</a> and several mission critical backend systems, including Paymnet, Invocing, Cart, Order, Fulfilment and Product catalog. With Kumuluz we have been able to fast-track the development and shorten time-to-market. Kumuluz platform has become a valuable part of our digital transformation strategy.",
+        "author": "Pavel Škerlj, CIO",
+        "company": "Petrol"
+      },
+      "ToneCerne": {
+        "quote":
+          "Agency for accelerating liquidity (APL) is empowering Kumuluz for development of our next generation factoring platform. Using Kumuluz has already considerably improved flexibility, scalability and mobility of our software. Going from monolithic to microservice architecture, we can now add new functionalities much faster. With Kumuluz we will be able to develop the new factoring platform 3x faster than with traditional development practices.",
+        "author": "Tone Černe, CEO",
+        "company": "APL"
+      }
+    }
+  },
+  "partnersSection": {
+    "title": "They trust us",
+    "subtitle": "Kumuluz is in use today",
+    "content1":
+      "Several projects, companies, start-ups, ICOs and development teams already use the Kumuluz platform, including the Kumuluz API Management, microservice framework and pre-built APIs and microservices, such as the Payment API, Shopping Cart, Invoice, Fulfilment and others.",
+    "content2":
+      "Our team members have used Kumuluz on several industry and research projects and have cooperated with a variety of partner organizations, earning trust and reputation among partners.",
+    "points": {
+      "multi": "Multinational companies",
+      "highstart": "High-tech start-up companies",
+      "ico": "ICO start-up companies",
+      "large": "Enterprises from different industry domains",
+      "gov": "Government organizations and public administration",
+      "open": "Open source projects"
+    }
+  },
+  "roadmapSection": {
+    "subTitle": "Roadmap",
+    "title": "Our product timeline",
+    "2013": {
+      "title": "Initial ideas for APIs and microservices",
+      "content": "We started designing our (centralized) API management and microservice framework. "
+    },
+    "2015": {
+      "title": "Duke's Choice Award",
+      "content": "We won the Java community equivalent of winning an Oscar."
+    },
+    "2017": {
+      "title": "Eclipse Microprofile.io members",
+      "content": "We joined the company of the big names leading the development of microservices."
+    },
+    "2018": {
+      "title": "Making APIs and microservices truly decentralized",
+      "content": "Introducing <b>innovative decentralized</b> APIs and microservices and making them first-class citizens for Blockchain."
+    },
+    "2019": {
+      "title": "dAPIs becoming the predominant way for developing dApps",
+      "content": "Kumuluz will empower software development around the world and accelerate decentralization."
+    }
+  },
+  "sectionNine": {
+    "subTitle": "",
+    "title": "Use of funds",
+    "content": "Funds will be distributed between development, business, community, PR and management.",
+    "fundsDistribution": {
+      "dev": {
+        "title": "Development"
+      },
+      "business": {
+        "title": "Business development"
+      },
+      "community": {
+        "title": "Community & PR"
+      },
+      "legal": {
+        "title": "Legal & Management"
+      },
+      "administration": {
+        "title": "Administration"
+      }
+    }
+  },
+  "advisorsSection": {
+    "title": "Our advisors",
+    "members": {
+      "BlazKos": {
+        "name": "Blaz Kos",
+        "position": "Business development",
+        "about":
+          "Blaž Kos took part in the development of the Slovenian startup ecosystem for more than 12 years. Now he consults companies of all sizes on growth strategy, processes optimization and business operations digitalization. He also does individual or group management coaching for the development of leadership abilities and other soft skills."
+      },
+      "BorisHorvat": {
+        "name": "Boris Horvat",
+        "position": "Digital business models",
+        "about": "Experienced entrepreneur, owner and CEO at Abelium.eu, CRO at GoOpti International. Received several international awards for GoOpti, iOliva and other digital projects"
+      },
+      "Business": {
+        "name": "To be disclosed soon",
+        "position": "Business",
+        "about": ""
+      },
+      "Business2": {
+        "name": "To be disclosed soon",
+        "position": "Business",
+        "about": ""
+      },
+      "Blockchain": {
+        "name": "To be disclosed soon",
+        "position": "Blockchain",
+        "about": ""
+      },
+      "Technology": {
+        "name": "To be disclosed soon",
+        "position": "Technology",
+        "about": ""
+      },
+      "Blockchain2": {
+        "name": "To be disclosed soon",
+        "position": "Blockchain",
+        "about": ""
+      },
+      "Finance": {
+        "name": "To be disclosed soon",
+        "position": "Finance",
+        "about": ""
+      },
+      "Marketing": {
+        "name": "To be disclosed soon",
+        "position": "Marketing & PR",
+        "about": ""
+      },
+      "Marketplace": {
+        "name": "To be disclosed soon",
+        "position": "Marketplace",
+        "about": ""
+      },
+      "Legal": {
+        "name": "To be disclosed soon",
+        "position": "Legal",
+        "about": ""
+      }
+    }
+  },
+  "sectionTen": {
+    "title": "Introducing decentralized APIs (<b>dAPIs</b>)",
+    "preContent": "APIs drive the new <b>digital business</b> and are the key ingredient of digital solutions and centerpiece of API Economy. Until now, APIs have been <b>centralized</b>. Kumuluz dAPI platform introduces fully decentralized APIs utilizing blockchain technology. dAPIs make decentralized applications (dApps) <b>truly decentralized</b>."
+  },
+  "decentralizedImage": {
+    "centralized": "<b>Centralized</b> application architecture",
+    "withoutKumuluz": "Decentralized application architecture <b>without</b> Kumuluz dAPIs",
+    "withKumuluz": "Decentralized application architecture <b>with</b> Kumuluz dAPIs"
+  },
+  "visionSection": {
+    "subTitle": "Our vision",
+    "title": "Decentralization for a better world",
+    "content1":
+      "In a world controlled by multinational corporations, blockchain is a bright spot, the enabler for the transformation towards decentralized, peer-to-peer, middleman-free economy and society. Thousands of ICO startups, developers, companies and enthusiast are developing disruptive, decentralized digital solutions, <b>disruptive business models</b> and decentralized autonomous organizations (<b>DAO</b>) with a common goal – to return the economy and society back to the people, to decentralize the world and make it a better place – <b>for us and for our children</b>.",
+    "content2":
+      "We at Kumuluz are strong believers and supporters of decentralization. Our vision is to accelerate the decentralization and help ICOs, organizations and developers to create their decentralized application and digital solutions <b>faster and with less effort</b>. We provide the most sophisticated digital platform for blockchain applications.",
+    "content3":
+      "Imagine a world where decentralized applications are not developed by writing code from scratch. Instead, they can be composed out of pre-built dAPIs. Now imagine a world, where you can <b>shorten</b> the development cycle <b>by an order of magnitude</b>, considerably reduce the time-to-market and still deliver state-of-the-art, secure, scalable, fault tolerant and reliable solutions that are flexible to adapt and modify.",
+    "content4":
+      "We at Kumuluz make this world a reality with the help of the Kumuluz digital platform and decentralized APIs. Join us, become a part of our community and help us make the world decentralized even sooner.",
+    "awards": "Awards",
+    "books": "Books"
+  },
+  "contact": {
+    "title": "Contact us",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "E-mail",
+      "emailPlaceholder": "Your e-mail",
+      "message": "Message",
+      "messagePlaceholder": "Your message"
+    },
+    "moreInfo": {
+      "content": "For more <b>information about the Kumuluz dAPI platform</b> dive deep into our materials:",
+      "whitepaper": "Read our <b>whitepaper</b>,",
+      "businessOverview": "Download the <b>business overview</b>,",
+      "presentation": "Download the <b>presentation</b>,",
+      "blog": "For interesting articled check <b>our blog</b>,",
+      "faq": "Got questions? Hop over to our <b>FAQ page</b>."
+    }
+  },
+  "footer": {
+    "email": "info@kumuluz.io",
+    "whitepaper": "Whitepaper",
+    "privacy": "Privacy",
+    "terms": "Terms of Service",
+    "copyright": "Copyright 2018 Kumuluz. All rights reserved."
+  },
+  "404": "404"
+}

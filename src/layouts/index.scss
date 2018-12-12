@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&subset=latin-ext');
+@import './variables.scss';
+
+$primary: $blue-400;
+$secondary: $white;
+$info: $grey-300;
+$enable-rounded: false;
+$font-family-sans-serif: $open-sans;
+$border-width: 2px;
+$input-placeholder-color: $grey-200;
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+html {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $fjalla-one;
+  text-transform: uppercase;
+
+  i{
+    text-transform: none;
+    font-style: normal;
+  }
+}
+
+p,
+li {
+  font-family: $open-sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.125rem;
+  color: $grey-500;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+p b,
+li b {
+  font-weight: 700;
+}
+
+a {
+  color: $blue-400;
+}
+
+p a {
+  color: $blue-400;
+  font-weight: 700;
+  border-bottom: 2px solid $blue-400;
+
+  &:hover {
+    color: $blue-350;
+    border-color: $blue-350;
+    text-decoration: none;
+  }
+}
+
+.btn-fab {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 500;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+  &:hover {
+    box-shadow: 0 15px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+}
+
+/* Overrides */
+.btn {
+  text-transform: uppercase;
+  font-family: $fjalla-one;
+}
+
+/* Util */
+.full-height {
+  height: 100%;
+}
+.full-width {
+  width: 100%;
+}
+.clickable {
+  cursor: pointer;
+}
+
+.bg-blue-700 {
+  background: $blue-700;
+}
+
+.youtube-video {
+  position: relative;
+  padding-bottom: 50%;
+  padding-top: 25px;
+  height: 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

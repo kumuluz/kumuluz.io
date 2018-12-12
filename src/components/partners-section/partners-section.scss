@@ -1,0 +1,49 @@
+@import '../../layouts/variables';
+
+.partners-section {
+  h3 {
+    color: $blue-700;
+    font-size: 2.375rem;
+  }
+
+  h2 {
+    color: $blue-700;
+    text-transform: none;
+  }
+
+  h5 {
+    color: $blue-300;
+    font-size: 1.313rem;
+  }
+
+  .block {
+    position: relative;
+
+    &:hover {
+      .floater{
+        opacity: 1;
+      }
+    }
+
+    .floater {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: transparentize($blue-100, .1);
+      transition: all .5s ease;
+      opacity: 0;
+
+      h5 {
+        color: $blue-700;
+        font-family: $open-sans;
+        text-align: center;
+        margin: 0;
+      }
+    }
+  }
+}

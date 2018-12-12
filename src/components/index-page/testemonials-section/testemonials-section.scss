@@ -1,0 +1,77 @@
+@import '../../../layouts/variables';
+
+.testemonials-section {
+  position: relative;
+
+  .background {
+    position: absolute;
+    background: transparentize($blue-100, 0.85);
+    height: 370px;
+    width: 100%;
+  }
+
+  h3 {
+    color: $blue-700;
+    font-size: 2.375rem;
+  }
+
+  .block {
+    position: relative;
+    background: $white;
+    box-shadow: $box-shadow;
+    padding: 2.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p {
+      font-size: 1.125rem;
+      color: $black;
+      font-weight: 300;
+      line-height: normal;
+      padding-bottom: 1rem;
+    }
+
+    img.avatar {
+      max-width: 80px;
+      max-height: 80px;
+      border-radius: 50%;
+      margin-right: 0.75rem;
+    }
+    .author {
+      font-size: 1.3125rem;
+      font-weight: 300;
+      color: $grey-500;
+    }
+
+    .company {
+      color: $blue-400;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    .quote-left {
+      position: absolute;
+      left: -25px;
+      top: -15px;
+    }
+    .quote-right {
+      position: absolute;
+      right: -25px;
+      top: -15px;
+    }
+  }
+
+  .pager {
+    width: 60px;
+    height: 8px;
+    background: $blue-700;
+    cursor: pointer;
+
+    &.active {
+      background: $blue-400;
+    }
+  }
+}

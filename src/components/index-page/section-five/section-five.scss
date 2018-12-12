@@ -1,0 +1,27 @@
+@import '../../../layouts/variables';
+
+.section-five {
+  background: linear-gradient(to right, $blue-300 32.11%, $blue-400 114.19%);
+
+  p {
+    color: $white;
+    max-width: 780px;
+    font-size: 1.3125rem;
+    line-height: 2.25rem;
+
+    b {
+      font-weight: 700;
+    }
+  }
+
+  .block {
+    color: $white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;
+
+    .mt-2px {
+      margin-top: 2px;
+    }
+  }
+}

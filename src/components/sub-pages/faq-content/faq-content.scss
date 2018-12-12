@@ -1,0 +1,39 @@
+@import '../../../layouts/variables';
+
+.faq-content {
+  .qa {
+    display: flex;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid $grey-100;
+    padding: 1rem;
+
+    .icon {
+      color: $blue-300;
+    }
+
+    .content {
+      color: $grey-500;
+      animation: 500ms open ease;
+
+      ul {
+        font-size: 1.125rem;
+        font-weight: 200;
+        b {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+}
+
+@keyframes open {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

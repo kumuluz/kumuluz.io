@@ -1,0 +1,60 @@
+@import '../../../layouts/variables';
+
+.vision-section {
+  h5 {
+    color: $blue-300;
+    margin-bottom: 1rem;
+    font-size: 1.313rem;
+  }
+  h3 {
+    color: $blue-700;
+    margin-bottom: 2rem;
+    text-transform: none;
+    font-size: 2.375rem;
+  }
+
+  h6 {
+    font-family: $open-sans;
+    font-weight: 700;
+    font-size: 1rem;
+    color: $grey-500;
+    margin-bottom: 1rem;
+  }
+
+  .img-right {
+    box-shadow: 2rem 2rem 0 $blue-700;
+    margin-left: -2rem;
+  }
+
+  .books {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+    div {
+      flex-basis: 0;
+      flex-grow: 1;
+      padding: 3px;
+      max-width: 20%;
+      display: inline-block;
+
+      @media (min-width: 576px) { 
+        max-width: 20%;
+       }
+@media (min-width: 768px) { max-width: 8% }
+
+      a {
+        display: block;
+        padding-bottom: 1rem;
+        height: 100%;
+
+        img {
+          border: 3px solid $blue-100;
+          width: 100%;
+          height: 100%;
+          box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+        }
+      }
+    }
+  }
+}

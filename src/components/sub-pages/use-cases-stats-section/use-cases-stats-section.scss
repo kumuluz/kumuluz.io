@@ -1,0 +1,15 @@
+@import '../../../layouts/variables';
+
+.use-cases-stats-section {
+  background: transparentize($blue-100, 0.85);
+
+
+  h3{
+    color: $blue-400;
+    font-size: 2.375rem;
+  }
+
+  h6{
+    color: $blue-700;
+  }
+}

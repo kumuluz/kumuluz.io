@@ -1,0 +1,26 @@
+@import '../../layouts/variables.scss';
+
+.dark-section {
+  background: $blue-700;
+  color: $white;
+
+  h6 {
+    color: $white;
+    font-family: $open-sans;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  h4 {
+    text-transform: none;
+  }
+
+  p {
+    color: $grey-100;
+  }
+
+  ul,
+  li {
+    color: $white;
+  }
+}

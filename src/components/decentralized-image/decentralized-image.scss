@@ -1,0 +1,17 @@
+@import '../../layouts/variables';
+
+.decentralized-image {
+  b {
+    border-bottom: 3px solid $red;
+  }
+
+  .good b {
+    border-bottom: 3px solid $green;
+  }
+
+  .row > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

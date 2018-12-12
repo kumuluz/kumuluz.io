@@ -1,0 +1,77 @@
+@import '../../../layouts/variables';
+
+.timeline-section {
+  h3 {
+    color: $blue-700;
+    font-size: 2.375rem;
+  }
+
+  .timeline {
+    position: relative;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+
+    &:before {
+      content: '';
+      position: absolute;
+      border-right: 10px dotted lighten($blue-300, 30%);
+      height: 100%;
+      display: block;
+
+      @media (min-width: 992px) {
+        left: calc(50% - 5px);
+      }
+    }
+
+    .event {
+      position: relative;
+      margin-bottom: 3rem;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: -15px;
+        top: 15px;
+        display: block;
+        background: $blue-300;
+        height: 40px;
+        width: 40px;
+        border-radius: 8px;
+
+        @media (min-width: 992px) {
+          left: -35px;
+        }
+      }
+
+      @media (min-width: 992px) {
+        &.left:before {
+          left: auto;
+          right: -35px;
+        }
+      }
+
+      &.future:before {
+        background: lighten($blue-300, 30%);
+      }
+
+      .time {
+        text-transform: uppercase;
+        color: $blue-300;
+        font-family: $fjalla-one;
+        font-size: 1.25rem;
+        border-bottom: 8px solid $blue-300;
+        margin-bottom: 2rem;
+      }
+      &.future .time {
+        color: lighten($blue-300, 30%);
+        border-color: lighten($blue-300, 30%);
+      }
+
+      h5 {
+        font-family: $open-sans;
+        font-weight: 700;
+        color: $grey-500;
+      }
+    }
+  }
+}

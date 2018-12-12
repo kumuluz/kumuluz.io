@@ -1,0 +1,29 @@
+@import '../../../layouts/variables';
+
+.section-nine {
+  h5 {
+    color: $blue-300;
+    margin-bottom: 1rem;
+    font-size: 1.313rem;
+  }
+  h3 {
+    color: $blue-700;
+    margin-bottom: 2rem;
+    text-transform: none;
+    font-size: 2.375rem;
+  }
+
+  h6{
+    color: $grey-300;
+  }
+
+  .title {
+    margin-left: 1.5rem;
+    color: $black;
+    margin-right: 1rem;
+  }
+  .percentage {
+    color: $blue-700;
+    font-weight: 700;
+  }
+}
