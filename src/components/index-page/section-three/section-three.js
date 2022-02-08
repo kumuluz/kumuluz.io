@@ -26,9 +26,9 @@ export class SectionThree extends Component {
               <h3>{t('sectionThree.title')}</h3>
               <p dangerouslySetInnerHTML={{ __html: t('sectionThree.content1') }} />
               <p dangerouslySetInnerHTML={{ __html: t('sectionThree.content2') }} />
-              <DownloadButton className="mt-5" color="info">
-                {t('actions.presentation')}
-              </DownloadButton>
+              {/*<DownloadButton className="mt-5" color="info">*/}
+              {/*  {t('actions.presentation')}*/}
+              {/*</DownloadButton>*/}
             </Col>
             <Col xs="12" lg="6">
               <img src={imgKumuluzGraphic} alt="" className="img-fluid mb-5" />

@@ -135,7 +135,7 @@ export default class TechnologyPage extends Component {
           {this.renderSmartContractsSection(t)}
         </SideMenu>
 
-        <WhitepaperSection title={t('whitepaper.title')} />
+        {/*<WhitepaperSection title={t('whitepaper.title')} />*/}
 
         <SubscribeSection hideSocial={true} />
         <Footer />
