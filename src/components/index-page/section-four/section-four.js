@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
-import Link from 'gatsby-link';
+import {withTranslation} from 'react-i18next';
+import {Link} from 'gatsby';
 import { Container, Row, Col } from 'reactstrap';
 
 import iconDapis from './icon-dAPIs.svg'
 import iconPrebuildDapis from './icon-prebuilt-dapis.svg'
 import iconMarketplace from './icon-marketplace.svg'
 import iconCommunity from './icon-community.svg'
-import iconToken from './icon-token.svg'
 import iconSmartContracts from './icon-smart-contracts.svg'
 
 import './section-four.scss';
@@ -46,8 +45,7 @@ const blocks = t => [
   }
 ];
 
-@translate()
-export class SectionFour extends Component {
+class SectionFourComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -83,3 +81,5 @@ export class SectionFour extends Component {
     );
   }
 }
+
+export const SectionFour = withTranslation()(SectionFourComponent);

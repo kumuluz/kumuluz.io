@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { Container, Row, Col } from 'reactstrap';
 
 import logoGolem from '../../../assets/images/logos/golem.png'
@@ -17,10 +16,6 @@ import logoDocker from '../../../assets/images/logos/docker.png'
 import './logos-section.scss';
 
 export class LogosSection extends Component {
-  static propTypes = {
-    t: PropTypes.func
-  };
-
   render() {
     return (
       <div className="images pb-4">

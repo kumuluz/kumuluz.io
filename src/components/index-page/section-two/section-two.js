@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 
 import iconDecentralization from './icon-decentralization.svg'
@@ -33,8 +33,7 @@ const advantages = t => [
   }
 ];
 
-@translate()
-export class SectionTwo extends Component {
+class SectionTwoComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -65,3 +64,5 @@ export class SectionTwo extends Component {
     );
   }
 }
+
+export const SectionTwo = withTranslation()(SectionTwoComponent);

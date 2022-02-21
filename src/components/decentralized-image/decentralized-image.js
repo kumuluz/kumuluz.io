@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Row, Col } from 'reactstrap';
 
 import imgCentralized from './centralized.svg'
@@ -9,8 +9,7 @@ import imgDeWith from './de-with.svg'
 
 import './decentralized-image.scss';
 
-@translate()
-export class DecentralizedImage extends Component {
+class DecentralizedImageComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -38,3 +37,5 @@ export class DecentralizedImage extends Component {
     );
   }
 }
+
+export const DecentralizedImage = withTranslation()(DecentralizedImageComponent);

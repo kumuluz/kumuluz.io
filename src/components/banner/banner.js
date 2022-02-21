@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col, Button, Form, FormGroup, Input } from 'reactstrap';
-import { DownloadButton } from '../../components';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 import './banner.scss';
 
-@translate()
-export class Banner extends Component {
+class BannerComponent extends Component {
   static propTypes = {
     t: PropTypes.func,
     simplified: PropTypes.bool,
@@ -31,12 +29,7 @@ export class Banner extends Component {
                   <h4>{t('banner.punchline2')}</h4>
 
                   <div className="d-flex buttons mb-5 mb-lg-0">
-                    {/*<DownloadButton className="mb-3 mb-sm-0 mx-sm-3 mx-auto" color="secondary">*/}
-                      {/*{t('actions.whitepaper')}*/}
-                    {/*</DownloadButton>*/}
-                    {/*<DownloadButton className="mx-sm-3 mx-auto" color="secondary">*/}
-                      {/*{t('actions.businessOverview')}*/}
-                    {/*</DownloadButton>*/}
+                  
                   </div>
                 </Col>
 
@@ -79,12 +72,6 @@ export class Banner extends Component {
               </Col>
               <Col xs="12" lg="6" xl="2" className="links p-4">
                 <div className="d-flex align-items-center justify-content-center full-height">
-                  {/*<a className="d-flex align-items-center mr-3" href="https://t.me/kumuluz" target="_blank" rel="noopener noreferrer">*/}
-                    {/*<div className="icon ml-2 mr-3">*/}
-                      {/*<FontAwesomeIcon icon={['fab', 'telegram']} size="2x" />*/}
-                    {/*</div>*/}
-                    {/*<span>{t('actions.joinCommunity')}</span>*/}
-                  {/*</a>*/}
                   <a className="d-flex align-items-center" href="https://github.com/kumuluz" target="_blank" rel="noopener noreferrer">
                     <div className="icon mr-3">
                       <FontAwesomeIcon icon={['fab', 'github']} size="2x" />
@@ -100,3 +87,5 @@ export class Banner extends Component {
     );
   }
 }
+
+export const Banner = withTranslation()(BannerComponent);

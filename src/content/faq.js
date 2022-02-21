@@ -35,9 +35,6 @@ export const QAndAs = [
           Third, Kumuluz allows your applications to be deployed and executed on any decentralized or centralized cloud, without
           modifications in your code.
         </p>
-        <p>
-          You can read more in our <a href="/">whitepaper</a>.
-        </p>
       </div>
     )
   },

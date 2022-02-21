@@ -102,7 +102,7 @@
       "jan2017": {
         "time": "January 2017",
         "title": "We started our Blog",
-        "content1": "<a target='_blank' rel='noopener noreferrer' href='http://blog.kumuluz.com'>blog.kumuluz.com</a>",
+        "content1": "<a target='_blank' rel='noopener noreferrer' href='https://blog.kumuluz.com'>blog.kumuluz.com</a>",
         "content2":
           "Kumulz microservice platform is gaining attraction. More and more developers are utilizing our platform to build microservices. Our platform has already gotten multiple modules and extensions added and we are already planning new features. Feature-full platform becomes complex for the developers, who are using platform for the first time, therefore we have decided to create a blog to publish tutorials and detailed guides for the individual modules of our platform. At the same time blog is perfect place for notifying our users about new releases."
       },

@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 
 import './use-cases-stats-section.scss';
 
-@translate(['other'])
-export class UseCasesStatsSection extends Component {
+class UseCasesStatsSectionComponent extends Component {
   static propTypes = {
     t: PropTypes.func,
     compact: PropTypes.bool
@@ -36,3 +35,5 @@ export class UseCasesStatsSection extends Component {
     );
   }
 }
+
+export const UseCasesStatsSection = withTranslation("other")(UseCasesStatsSectionComponent);

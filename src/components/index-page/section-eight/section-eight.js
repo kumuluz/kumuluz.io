@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 
 import imgOurStory2 from './our-story-2.jpg'
@@ -13,8 +13,7 @@ import imgMicroprofile from './microprofile.png'
 
 import './section-eight.scss';
 
-@translate()
-export class SectionEight extends Component {
+class SectionEightComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -69,3 +68,5 @@ export class SectionEight extends Component {
     );
   }
 }
+
+export const SectionEight = withTranslation()(SectionEightComponent);

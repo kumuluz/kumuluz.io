@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {withTranslation} from 'react-i18next';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { SideMenu } from '../../sub-pages';
 
 import './faq-content.scss';
 
 import { categories, QAndAs } from '../../../content/faq';
 
-@translate()
-export class FAQContent extends Component {
+class FAQContentComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -109,3 +108,5 @@ export class FAQContent extends Component {
     );
   }
 }
+
+export const FAQContent = withTranslation()(FAQContentComponent);

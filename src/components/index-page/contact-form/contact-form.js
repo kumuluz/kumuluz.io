@@ -1,38 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col, Form, FormGroup, Input, Label, Button } from 'reactstrap';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { SocialLinks } from '../../../components';
 
 import './contact-form.scss';
 
-const downloadLinks = t => [
-  {
-    link: '',
-    text: t('contact.moreInfo.whitepaper')
-  },
-  {
-    link: '',
-    text: t('contact.moreInfo.businessOverview')
-  },
-  {
-    link: '',
-    text: t('contact.moreInfo.presentation')
-  },
-  {
-    link: 'https://blog.kumuluz.com',
-    text: t('contact.moreInfo.blog'),
-    newTab: true
-  },
-  {
-    link: '/faq',
-    text: t('contact.moreInfo.faq')
-  }
-];
-
-@translate()
-export class ContactForm extends Component {
+class ContactFormComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -67,21 +40,10 @@ export class ContactForm extends Component {
               </div>
             </Form>
           </Col>
-          {/*<Col xs="12" md="8" lg="6">*/}
-            {/*<div className="more-info">*/}
-              {/*<p dangerouslySetInnerHTML={{ __html: t('contact.moreInfo.content') }} />*/}
-              {/*{downloadLinks(t).map((l, k) => (*/}
-                {/*<a key={k} href={l.link} target={l.newTab ? '_blank' : null} rel={l.newTab ? 'noreferrer noopener' : null}>*/}
-                  {/*<i>*/}
-                    {/*<FontAwesomeIcon icon="arrow-down" />*/}
-                  {/*</i>*/}
-                  {/*<span dangerouslySetInnerHTML={{ __html: l.text }} />*/}
-                {/*</a>*/}
-              {/*))}*/}
-            {/*</div>*/}
-          {/*</Col>*/}
         </Row>
       </Container>
     );
   }
 }
+
+export const ContactForm = withTranslation()(ContactFormComponent);

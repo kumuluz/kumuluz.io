@@ -1,6 +1,6 @@
 import React from 'react';
 import { Badge } from 'reactstrap';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 import imgEvent2013 from '../assets/images/events/event-2013.png'
 import imgSunesis2014 from '../assets/images/events/sunesis-2014.png'
@@ -152,7 +152,7 @@ export const eventsInPast = t => [
             src="https://www.youtube.com/embed/s95NonOYflk"
             frameBorder="0"
             allow="autoplay; encrypted-media"
-            allowFullscreen
+            allowFullScreen
           />
         </div>
       </span>
@@ -175,7 +175,7 @@ export const eventsInPast = t => [
       <span>
         <p dangerouslySetInnerHTML={{__html: t('timeline.events.feb2017.content1')}} />
         <p dangerouslySetInnerHTML={{__html: t('timeline.events.feb2017.content2')}} />
-        <a href="http://microprofile.io" target="_blank" rel="noopener noreferrer">
+        <a href="https://microprofile.io" target="_blank" rel="noopener noreferrer">
           <img src={imgFeb2017} alt={t('timeline.events.feb2017.title')} className="img-fluid my-3 d-block mx-auto" />
         </a>
       </span>
@@ -233,7 +233,7 @@ export const eventsInFuture = t => [
         <ul>
           <li>
             <Badge color="primary" className="mr-2">Delivered</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q4-2017.milestone1') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q4-2017.milestone1') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee-swagger">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
@@ -243,7 +243,7 @@ export const eventsInFuture = t => [
           </li>
           <li>
             <Badge color="primary" className="mr-2">Delivered</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q4-2017.milestone2') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q4-2017.milestone2') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee-openapi">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
@@ -253,7 +253,7 @@ export const eventsInFuture = t => [
           </li>
           <li>
             <Badge color="primary" className="mr-2">Delivered</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q4-2017.milestone3') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q4-2017.milestone3') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
@@ -263,7 +263,7 @@ export const eventsInFuture = t => [
           </li>
           <li>
             <Badge color="primary" className="mr-2">Delivered</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q4-2017.milestone4') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q4-2017.milestone4') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee-health">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
@@ -273,7 +273,7 @@ export const eventsInFuture = t => [
           </li>
           <li>
             <Badge color="primary" className="mr-2">Delivered</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q4-2017.milestone5') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q4-2017.milestone5') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee-reactive">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
@@ -313,7 +313,7 @@ export const eventsInFuture = t => [
         <ul>
           <li>
             <Badge color="primary" className="mr-2">Updated</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone1') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone1') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee-swagger">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
@@ -323,7 +323,7 @@ export const eventsInFuture = t => [
           </li>
           <li>
             <Badge color="primary" className="mr-2">Updated</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone2') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone2') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee-openapi">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
@@ -333,7 +333,7 @@ export const eventsInFuture = t => [
           </li>
           <li>
             <Badge color="primary" className="mr-2">Delivered</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone3') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone3') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee-config">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
@@ -343,7 +343,7 @@ export const eventsInFuture = t => [
           </li>
           <li>
             <Badge color="primary" className="mr-2">Delivered</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone4') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone4') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee-metrics">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
@@ -353,7 +353,7 @@ export const eventsInFuture = t => [
           </li>
           <li>
             <Badge color="primary" className="mr-2">Delivered</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone5') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone5') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee-discovery">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
@@ -363,7 +363,7 @@ export const eventsInFuture = t => [
           </li>
           <li>
             <Badge color="primary" className="mr-2">Delivered</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone6') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone6') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
@@ -373,7 +373,7 @@ export const eventsInFuture = t => [
           </li>
           <li>
             <Badge color="primary" className="mr-2">Delivered</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone7') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone7') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee-testing">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
@@ -383,7 +383,7 @@ export const eventsInFuture = t => [
           </li>
           <li>
             <Badge color="warning" className="mr-2">Pre-release</Badge>
-            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone8') }}></span>
+            <span dangerouslySetInnerHTML={{ __html: t('upcoming.events.q1-2018.milestone8') }}/>
             <a className="ml-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kumuluz/kumuluzee">
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
