@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 import { SocialLinks } from '../../components';
-import Link from 'gatsby-link';
+import {Link} from 'gatsby';
 
 import './footer.scss';
 
 import { navigation } from '../../content/links';
 
-@translate()
-export class Footer extends Component {
+class FooterComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -42,7 +41,7 @@ export class Footer extends Component {
           </Row>
           <Row>
             <Col>
-              <p className="my-5 text-center copyright">{t('footer.copyright')}</p>
+              <p className="my-5 text-center copyright">Copyright {new Date().getFullYear()} Kumuluz. All rights reserved.</p>
             </Col>
           </Row>
         </Container>
@@ -50,3 +49,5 @@ export class Footer extends Component {
     );
   }
 }
+
+export const Footer = withTranslation()(FooterComponent);

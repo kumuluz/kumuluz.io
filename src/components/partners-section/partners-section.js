@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 import {Checkbox} from '../../components';
 
@@ -8,8 +8,7 @@ import './partners-section.scss';
 
 import { partners } from '../../content/partners';
 
-@translate()
-export class PartnersSection extends Component {
+class PartnersSectionComponent extends Component {
   static propTypes = {
     t: PropTypes.func,
     all: PropTypes.bool
@@ -75,3 +74,5 @@ export class PartnersSection extends Component {
     );
   }
 }
+
+export const PartnersSection = withTranslation()(PartnersSectionComponent);

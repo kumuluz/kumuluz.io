@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
-import Link from 'gatsby-link';
+import {Link} from 'gatsby';
 
 import './section-six.scss';
 
@@ -36,11 +36,10 @@ const blocks = t => [
     link: '/platform#seamless-integration',
     title: t('sectionSix.advantages.seamlessIntegration.title'),
     content: t('sectionSix.advantages.seamlessIntegration.content')
-  }  
+  }
 ];
 
-@translate()
-export class SectionSix extends Component {
+class SectionSixComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -72,3 +71,5 @@ export class SectionSix extends Component {
     );
   }
 }
+
+export const SectionSix = withTranslation()(SectionSixComponent);

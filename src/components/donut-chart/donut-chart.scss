@@ -1,5 +1,5 @@
+@use "sass:math";
 @import '../../layouts/variables';
-
 $donut-width: 350px;
 
 .donut-chart-section {
@@ -29,14 +29,15 @@ $donut-width: 350px;
 
   .portion-block {
     border-radius: 50%;
-    clip: rect(0px, $donut-width, $donut-width, $donut-width / 2);
+    clip: rect(0px, $donut-width, $donut-width, math.div($donut-width, 2));
     height: 100%;
     position: absolute;
     width: 100%;
   }
+
   .circle {
     border-radius: 50%;
-    clip: rect(0px, $donut-width/2, $donut-width, 0px);
+    clip: rect(0px, math.div($donut-width, 2), $donut-width, 0px);
     height: 100%;
     position: absolute;
     width: 100%;

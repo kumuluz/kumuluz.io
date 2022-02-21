@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
-import Link from 'gatsby-link';
+import {withTranslation} from 'react-i18next';
+import {Link} from 'gatsby';
 import { Container, Row, Col } from 'reactstrap';
 
 import './roadmap-section.scss';
 
-@translate()
-export class RoadmapSection extends Component {
+class RoadmapSectionComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -51,3 +50,5 @@ export class RoadmapSection extends Component {
     );
   }
 }
+
+export const RoadmapSection = withTranslation()(RoadmapSectionComponent);

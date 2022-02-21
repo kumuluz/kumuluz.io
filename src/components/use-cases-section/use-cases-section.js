@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { Checkbox } from '../../components';
 
 import './use-cases-section.scss';
 
 import { intendedFor } from '../../content/useCases';
 
-@translate()
-export class UseCasesSection extends Component {
+
+class UseCasesSectionComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -29,15 +29,21 @@ export class UseCasesSection extends Component {
 
   componentDidMount() {
     this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);
+    if (typeof window !== "undefined") {
+      window.addEventListener('resize', this.updateWindowDimensions);
+    }
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.updateWindowDimensions);
+    if (typeof window !== "undefined") {
+      window.removeEventListener('resize', this.updateWindowDimensions);
+    }
   }
 
   updateWindowDimensions() {
-    this.setState({ ...this.state, width: window.innerWidth, height: window.innerHeight });
+    if (typeof window !== "undefined") {
+      this.setState({ ...this.state, width: window.innerWidth, height: window.innerHeight });
+    }
   }
 
   goToArticle(article) {
@@ -147,18 +153,10 @@ export class UseCasesSection extends Component {
               )}
             </Col>
           </Row>
-          {/*
-          Hidden
-          <Row className="justify-content-center pb-5 bottom">
-            <Col md="12" lg="auto" className="text-center">
-              <div className="fact d-block d-md-flex">
-                <div className="tag mb-3 mb-md-0 px-3">{t('useCasesSection.facts.title')}</div>
-                <div className="content pr-2">{t('useCasesSection.facts.content')}</div>
-              </div>
-            </Col>
-            </Row> */}
         </Container>
       </div>
     );
   }
 }
+
+export const UseCasesSection = withTranslation()(UseCasesSectionComponent);

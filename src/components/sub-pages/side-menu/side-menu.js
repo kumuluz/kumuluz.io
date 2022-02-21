@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col, InputGroup, InputGroupAddon, Input, InputGroupText } from 'reactstrap';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 import './side-menu.scss';
 
-@translate()
-export class SideMenu extends Component {
+class SideMenuComponent extends Component {
   static propTypes = {
     t: PropTypes.func,
     menuItems: PropTypes.array,
@@ -91,3 +90,5 @@ export class SideMenu extends Component {
     );
   }
 }
+
+export const SideMenu = withTranslation()(SideMenuComponent);

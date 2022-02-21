@@ -1,4 +1,4 @@
-import fontawesome from '@fortawesome/fontawesome';
+import {library} from "@fortawesome/fontawesome";
 
 import brands from '@fortawesome/fontawesome-free-brands';
 import {
@@ -15,9 +15,9 @@ import {
 } from '@fortawesome/fontawesome-free-solid';
 import { faCheckSquare } from '@fortawesome/fontawesome-free-regular';
 
-const solids = [faChevronDown, faArrowDown, faSquare, faLanguage, faArrowLeft, faArrowRight, faSearch, faMinus, faPlus, faArrowUp];
-const regulars = [faCheckSquare];
-
-fontawesome.library.add(brands, ...solids, ...regulars);
-
-export default fontawesome;
+export function initIcons() {
+  const solids = [faChevronDown, faArrowDown, faSquare, faLanguage, faArrowLeft, faArrowRight, faSearch, faMinus, faPlus, faArrowUp];
+  const regulars = [faCheckSquare];
+  
+  library.add(brands, ...solids, ...regulars);
+}

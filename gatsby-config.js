@@ -6,13 +6,13 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/dev-404-page/`, `/404/`, `/404.html`]
+        excludes: [`/dev-404-page/`, `/404/`, `/404.html`]
       }
     },
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -36,18 +36,13 @@ module.exports = {
         ]
       }
     },
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        precision: 10
-      }
-    },
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages/blog`,
-        name: 'blog'
-      },
+        name: `locale`,
+        path: `${__dirname}/static/locales`
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -71,65 +66,21 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-feed`,
+      resolve: "gatsby-plugin-react-i18next",
       options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                siteUrl
-                site_url: siteUrl
-                blogBasePath
-              }
-            }
-          }
-        `,
-        setup: ({ query: { site: { siteMetadata }, ...rest } }) => {
-          return {
-            ...siteMetadata,
-            ...rest,
-            feed_url: siteMetadata.siteUrl + '/blog/feed.xml'
-          }
-        },
-        feeds: [
-          {
-            serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
-                return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.excerpt,
-                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  custom_elements: [{ "content:encoded": edge.node.html }],
-                });
-              });
-            },
-            query: `
-              {
-                allMarkdownRemark(
-                  limit: 1000,
-                  sort: { order: DESC, fields: [frontmatter___date] }
-                ) {
-                  edges {
-                    node {
-                      excerpt
-                      html
-                      fields {
-                        slug
-                      }
-                      frontmatter {
-                        title
-                        date
-                      }
-                    }
-                  }
-                }
-              }
-            `,
-            output: "/blog/feed.xml"
-          }
-        ]
+        localeJsonSourceName: "locale",
+        languages: ["en"],
+        defaultLanguage: "en",
+        siteUrl: "https://kumuluz.io",
+        redirect: false,
+        i18nextOptions: {
+          interpolation: {
+            escapeValue: false // not needed for react as it escapes by default
+          },
+          keySeparator: ".",
+          nsSeparator: ":"
+        }
       }
-    }
+    },
   ]
 };

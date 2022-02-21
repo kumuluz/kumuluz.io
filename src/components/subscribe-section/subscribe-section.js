@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col, Form, FormGroup, Input, Button } from 'reactstrap';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 import './subscribe-section.scss';
 
-@translate()
-export class SubscribeSection extends Component {
+class SubscribeSectionComponent extends Component {
   static propTypes = {
     t: PropTypes.func,
     hideSocial: PropTypes.bool
@@ -50,3 +49,5 @@ export class SubscribeSection extends Component {
     );
   }
 }
+
+export const SubscribeSection = withTranslation()(SubscribeSectionComponent);

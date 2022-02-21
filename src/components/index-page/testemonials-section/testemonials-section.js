@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 
 import avatarEdvardSimec from './edvard_simec.jpg'
@@ -28,7 +28,9 @@ const quotes = t => [
         <p className="text-center m-0" dangerouslySetInnerHTML={{ __html: t('testemonialsSection.quotes.PavelSkerlj.quote') }} />
         <Row className="mb-4">
           <Col className="pr-0">
-            <a href="https://itunes.apple.com/si/app/na-poti/id1249977118?ls=1&mt=8" target="_blank" className="d-block p-2">
+            <a href="https://itunes.apple.com/si/app/na-poti/id1249977118?ls=1&mt=8"
+                rel="noreferrer noopener"
+                target="_blank" className="d-block p-2">
               <img
                 className="img-fluid"
                 alt="Download on the App Store"
@@ -38,7 +40,8 @@ const quotes = t => [
             </a>
           </Col>
           <Col className="pl-0">
-            <a href="https://play.google.com/store/apps/details?id=si.petrol.napoti&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank">
+            <a href="https://play.google.com/store/apps/details?id=si.petrol.napoti&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                target="_blank" rel="noreferrer noopener">
               <img
                 className="img-fluid"
                 alt="Get it on Google Play"
@@ -58,8 +61,7 @@ const quotes = t => [
   }
 ];
 
-@translate()
-export class TestemonialsSection extends Component {
+class TestemonialsSectionComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -78,15 +80,21 @@ export class TestemonialsSection extends Component {
 
   componentDidMount() {
     this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);
+    if (typeof window !== "undefined") {
+      window.addEventListener('resize', this.updateWindowDimensions);
+    }
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.updateWindowDimensions);
+    if (typeof window !== "undefined") {
+      window.removeEventListener('resize', this.updateWindowDimensions);
+    }
   }
 
   updateWindowDimensions() {
-    this.setState({ ...this.state, width: window.innerWidth, height: window.innerHeight });
+    if (typeof window !== "undefined") {
+      this.setState({ ...this.state, width: window.innerWidth, height: window.innerHeight });
+    }
   }
 
   goToPage(page) {
@@ -124,8 +132,8 @@ export class TestemonialsSection extends Component {
             {currentQuotes.map((q, key) => (
               <Col xs="12" md="6 " xl="4" key={key}>
                 <div className="block">
-                  {((key + 1) % perPage == 1 || perPage === 1) && <img src={iconQuoteLeft} className="quote-left" />}
-                  {((key + 1) % perPage == 0 || perPage === 1) && <img src={iconQuoteRight} className="quote-right" />}
+                  {((key + 1) % perPage === 1 || perPage === 1) && <img src={iconQuoteLeft} className="quote-left" />}
+                  {((key + 1) % perPage === 0 || perPage === 1) && <img src={iconQuoteRight} className="quote-right" />}
                   {q.content}
                   <div className="d-flex align-items-center justify-content-center">
                     <img src={q.avatar} alt={q.author} className="img-fluid avatar" />
@@ -150,3 +158,5 @@ export class TestemonialsSection extends Component {
     );
   }
 }
+
+export const TestemonialsSection = withTranslation()(TestemonialsSectionComponent);

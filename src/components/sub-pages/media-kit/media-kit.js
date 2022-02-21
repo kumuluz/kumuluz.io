@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 import { DownloadButton } from '../../../components';
 
 import './media-kit.scss';
 
-@translate(['other'])
-export class MediaKit extends Component {
+class MediaKitComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -40,3 +39,5 @@ export class MediaKit extends Component {
     );
   }
 }
+
+export const MediaKit = withTranslation("other")(MediaKitComponent);

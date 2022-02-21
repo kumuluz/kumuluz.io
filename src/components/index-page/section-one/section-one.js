@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 
 import icon1 from './icon-without-kumuluz.svg'
@@ -8,8 +8,7 @@ import icon2 from './icon-with-kumuluz.svg'
 
 import './section-one.scss';
 
-@translate()
-export class SectionOne extends Component {
+class SectionOneComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -46,3 +45,5 @@ export class SectionOne extends Component {
     );
   }
 }
+
+export const SectionOne = withTranslation()(SectionOneComponent);

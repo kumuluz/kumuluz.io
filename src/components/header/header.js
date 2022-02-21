@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
-import { Navbar, NavbarToggler, Collapse, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu } from 'reactstrap';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import Link from 'gatsby-link';
+import {withTranslation} from 'react-i18next';
+import { Navbar, NavbarToggler, Collapse, Nav, NavItem, UncontrolledDropdown, DropdownToggle, DropdownMenu } from 'reactstrap';
+import {Link} from 'gatsby';
 
 import './header.scss';
 
@@ -11,8 +10,7 @@ import logo from './logo.svg'
 
 import { navigation } from '../../content/links';
 
-@translate()
-export class Header extends Component {
+class HeaderComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -40,7 +38,6 @@ export class Header extends Component {
       }
       return 'active plus position-relative';
     }
-    return;
   }
 
   render() {
@@ -86,17 +83,6 @@ export class Header extends Component {
                     )
                 )}
               </Nav>
-              { /*
-              <Nav className="ml-auto" navbar>
-                <NavItem>
-                  <NavLink>
-                    <span className="d-block">
-                      <FontAwesomeIcon icon="language" size="2x" />
-                    </span>
-                  </NavLink>
-                </NavItem>
-              </Nav>
-              */ }
             </Collapse>
           </div>
         </Navbar>
@@ -104,3 +90,5 @@ export class Header extends Component {
     );
   }
 }
+
+export const Header = withTranslation()(HeaderComponent);

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 
 import './use-cases-blocks.scss';
 
 import { useCases } from '../../content/useCases';
 
-@translate('other')
-export class UseCasesBlocks extends Component {
+
+class UseCasesBlocksComponent extends Component {
   static propTypes = {
     t: PropTypes.func,
     title: PropTypes.string,
@@ -45,3 +45,5 @@ export class UseCasesBlocks extends Component {
     );
   }
 }
+
+export const UseCasesBlocks = withTranslation("other")(UseCasesBlocksComponent);

@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 import { DownloadButton } from '../../../components';
 
 import './whitepaper-section.scss';
 
-@translate(['platform', 'translations'])
-export class WhitepaperSection extends Component {
+class WhitepaperSectionComponent extends Component {
   static propTypes = {
     t: PropTypes.func,
     light: PropTypes.bool,
@@ -37,3 +36,5 @@ export class WhitepaperSection extends Component {
     );
   }
 }
+
+export const WhitepaperSection = withTranslation(['platform', 'translations'])(WhitepaperSectionComponent);

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 
 import './section-ten.scss';
 import { DecentralizedImage } from '../../../components';
 
-@translate()
-export class SectionTen extends Component {
+
+class SectionTenComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -38,3 +38,5 @@ export class SectionTen extends Component {
     );
   }
 }
+
+export const SectionTen = withTranslation()(SectionTenComponent);

@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
-import Link from 'gatsby-link';
+import {withTranslation} from 'react-i18next';
+import {Link} from 'gatsby';
 import { Container, Row, Col } from 'reactstrap';
 
 import iconArchitecture from './icon-architecture.svg'
 
 import './section-seven.scss';
 
-@translate()
-export class SectionSeven extends Component {
+class SectionSevenComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -39,3 +38,5 @@ export class SectionSeven extends Component {
     );
   }
 }
+
+export const SectionSeven = withTranslation()(SectionSevenComponent);

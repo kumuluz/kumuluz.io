@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Container, Row, Col } from 'reactstrap';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { DonutChart } from '../../../components';
 
 import './chart-section.scss';

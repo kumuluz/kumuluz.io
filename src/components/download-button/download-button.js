@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { InputGroup, InputGroupAddon, Button } from 'reactstrap';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 export class DownloadButton extends Component {
   static propTypes = {

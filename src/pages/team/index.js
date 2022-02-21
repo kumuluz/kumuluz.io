@@ -1,23 +1,32 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
-import { Banner, SubscribeSection, Footer } from '../../components';
+import React from 'react';
+import {Banner, SubscribeSection, Footer} from '../../components';
+import {useI18next} from "gatsby-plugin-react-i18next";
+import {graphql} from "gatsby";
+import {Layout} from "../../layouts";
 
-@translate('other')
-export default class TeamPage extends Component {
-  static propTypes = {
-    t: PropTypes.func
-  };
-
-  render() {
-    const { t } = this.props;
-
+export default function TeamPage() {
+    const {t} = useI18next("other");
     return (
-      <div className="team-page">
-        <Banner simplified={true} title={t('team.title')} content={t('team.content')} />
-        <SubscribeSection hideSocial={true} />
-        <Footer />
-      </div>
+        <Layout>
+            <div className="team-page">
+                <Banner simplified={true} title={t('team.title')} content={t('team.content')}/>
+                <SubscribeSection hideSocial={true}/>
+                <Footer/>
+            </div>
+        </Layout>
     );
-  }
 }
+
+export const query = graphql`
+    query($language: String!) {
+        locales: allLocale(filter: {language: {eq: $language}}) {
+            edges {
+                node {
+                    ns
+                    data
+                    language
+                }
+            }
+        }
+    }
+`;

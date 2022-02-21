@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 import { Checkbox } from '../../../components';
 
@@ -14,8 +14,7 @@ const checkboxes = t => [
   t('sectionFive.checkboxes.learningCurve')
 ];
 
-@translate()
-export class SectionFive extends Component {
+class SectionFiveComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -43,3 +42,5 @@ export class SectionFive extends Component {
     );
   }
 }
+
+export const SectionFive = withTranslation()(SectionFiveComponent);

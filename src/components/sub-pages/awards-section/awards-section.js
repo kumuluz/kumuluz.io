@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 
 import imgDuke from './duke.jpg'
@@ -9,8 +9,7 @@ import imgStartup from '../../../assets/images/logos/startup.png'
 
 import './awards-section.scss';
 
-@translate('other')
-export class AwardsSection extends Component {
+class AwardsSectionComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -44,3 +43,5 @@ export class AwardsSection extends Component {
     );
   }
 }
+
+export const AwardsSection = withTranslation("other")(AwardsSectionComponent);

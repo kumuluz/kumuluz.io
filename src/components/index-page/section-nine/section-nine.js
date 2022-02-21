@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {withTranslation} from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { DonutChart } from '../../../components';
 
 import './section-nine.scss';
 
 import { fundsDistribution } from '../../../content/distribution';
 
-@translate()
-export class SectionNine extends Component {
+class SectionNineComponent extends Component {
   static propTypes = {
     t: PropTypes.func
   };
@@ -47,3 +46,5 @@ export class SectionNine extends Component {
     );
   }
 }
+
+export const SectionNine = withTranslation()(SectionNineComponent);
