@@ -2,7 +2,6 @@ module.exports = {
   siteMetadata: {
     title: 'Kumuluz.io',
     siteUrl: 'https://kumuluz.io',
-    blogBasePath: '/blog'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
